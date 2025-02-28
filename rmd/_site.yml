@@ -1,0 +1,36 @@
+name: "Polites"
+output_dir: "../docs"
+output:
+  html_document:
+    theme: cosmo
+    css: style.css
+    includes:
+      in_header: "favicon.html"
+exclude: ["extras"]
+navbar:
+  title: '<div><img class="worker" src="ohdsi16x16.png"></img> Polites </div>'
+  right:
+    - icon: fa-github
+      href: https://github.com/NACHC-CAD/polites
+  left:
+    - text: "Getting Started"
+      icon: fa-list
+      menu:
+        - text: "Home"
+          href: index.html
+        - text: "Background"
+          href: introduction.html
+        - text: "Quick Start Guide"
+          href: quick-start.html
+        - text: "Implementations"
+          menu:
+          - text: "Microsoft SqlServer"
+            href: sqlserver.html
+          - text: "PostgreSql (comming soon)"
+          - text: "Databricks (comming soon)"
+    - text: "Developer How Tos"
+      icon: fa-list
+      menu:
+        - text: "How To Set up Your WebAPI/Atlas Development Environment"
+          href: howto-webapi-dev-env.html
+

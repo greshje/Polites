@@ -1,0 +1,282 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<properties>
+		<version>1.0.022</version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.release>11</maven.compiler.release>
+	</properties>
+
+	<groupId>org.nachc.cad.tools</groupId>
+	<artifactId>polites</artifactId>
+	<version>${version}</version>
+
+	<packaging>jar</packaging>
+
+	<name>Polites</name>
+	<description>Utilities to setup CDM</description>
+	<url>https://github.com/greshje/polites</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<!-- 
+	*
+	* repositories
+	*
+	-->
+
+	<repositories>
+	
+		<repository>
+		  <id>ohdsi.snapshots</id>
+		  <name>repo.ohdsi.org-snapshots</name>
+		  <url>https://repo.ohdsi.org/nexus/content/repositories/snapshots</url>
+		  <releases>
+		      <enabled>false</enabled>
+		  </releases>
+		  <snapshots>
+		      <enabled>true</enabled>
+		  </snapshots>
+		</repository>	
+
+	</repositories>
+
+	<!-- 
+	*
+	* dependencies
+	*
+	-->
+
+	<dependencies>
+
+		<!-- CORE NACHC FRAMEWORK STUFF -->
+		<dependency>
+		    <groupId>org.nachc.cad.tools</groupId>
+		    <artifactId>fhirtoomop</artifactId>
+		    <version>1.7.054</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.nachc.cad.tools</groupId>
+			<artifactId>core</artifactId>
+			<version>1.1.052</version>
+		</dependency>
+
+		<!-- 
+		*
+		* BASIC TOOLS
+		*
+		* -->
+
+		<!-- LOMBOK (Lombok jar also needs to be added to Eclipse IDE) -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.8</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- SLF4J LOGBACK CLASSIC https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.3</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.30</version>
+		</dependency>
+
+		<!-- JUNIT https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- JUNIT-TOOLBOX https://mvnrepository.com/artifact/com.googlecode.junit-toolbox/junit-toolbox -->
+		<dependency>
+			<groupId>com.googlecode.junit-toolbox</groupId>
+			<artifactId>junit-toolbox</artifactId>
+			<version>2.4</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- POSTGRESQL DRIVER https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.3.6</version>
+		</dependency>
+
+		<!-- MS SQL SERVER DRIVER https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>12.6.2.jre11</version>
+		</dependency>
+
+	</dependencies>
+
+	<!-- 
+	*
+	* build
+	*
+	-->
+
+	<build>
+
+		<!-- 
+		* 
+		* EXCLUDE AUTHENTICATION INFO FROM DEPLOYMENT BUILD (include in local build)
+		*
+		-->
+
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+				<!--
+	            <excludes>
+	                <exclude>auth/**/*.properties</exclude>
+	            </excludes>
+	            -->
+			</resource>
+		</resources>
+		
+		<pluginManagement>
+			<plugins>
+
+				<!-- compiler -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.8.0</version>
+					<configuration>
+	                    <source>${maven.compiler.source}</source>
+	                    <target>${maven.compiler.target}</target>
+						<release>${maven.compiler.release}</release>
+	 					</configuration>
+				</plugin>
+
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+
+			<!-- copy resources from the resources dir -->
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<id>copy-resources</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${basedir}/target/polites</outputDirectory>
+							<resources>
+								<resource>
+									<directory>resources</directory>
+									<filtering>true</filtering>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- include dependencies in the jar files -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy-dependencies</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/polites/lib</outputDirectory>
+							<overWriteReleases>false</overWriteReleases>
+							<overWriteSnapshots>false</overWriteSnapshots>
+							<overWriteIfNewer>true</overWriteIfNewer>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- create the jar file -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>org.nachc.tools.polites.util.PolitesMain</mainClass>
+						</manifest>
+						<manifestEntries>
+							<Class-Path>.</Class-Path>
+						</manifestEntries>
+					</archive>
+					<finalName>polites/polites</finalName>
+				</configuration>
+			</plugin>
+
+			<!-- copy the bat file and the app.properties and other files -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.8</version>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<tasks>
+								<echo>Copying files</echo>
+								<copy file="${basedir}/src/main/resources/auth/app.properties" tofile="${basedir}/target/polites/auth/app.properties" />
+								<copy file="${basedir}/src/main/resources/auth/sqlserver-demo-app.properties" tofile="${basedir}/target/polites/auth/sqlserver-demo-app.properties" />
+								<copy file="${basedir}/src/main/resources/bat/polites.bat" tofile="${basedir}/target/polites/polites.bat" />
+							</tasks>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- don't run the integration tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>
+

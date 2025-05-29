@@ -9,973 +9,973 @@ Executing multiple queries. This could take a while
 Analysis 0 (Source name) -- START
 Analysis 0 (Source name) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 0 (0.041004 secs)
-[Main Analysis] [COMPLETE] 0 (0.041004 secs)
+[Main Analysis] [COMPLETE] 0 (0.060064 secs)
+[Main Analysis] [COMPLETE] 0 (0.060064 secs)
 Analysis 1 (Number of persons) -- START
 Analysis 1 (Number of persons) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1 (0.030681 secs)
-[Main Analysis] [COMPLETE] 1 (0.030681 secs)
+[Main Analysis] [COMPLETE] 1 (0.047880 secs)
+[Main Analysis] [COMPLETE] 1 (0.047880 secs)
 Analysis 2 (Number of persons by gender) -- START
 Analysis 2 (Number of persons by gender) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2 (0.030274 secs)
-[Main Analysis] [COMPLETE] 2 (0.030274 secs)
+[Main Analysis] [COMPLETE] 2 (0.054240 secs)
+[Main Analysis] [COMPLETE] 2 (0.054240 secs)
 Analysis 3 (Number of persons by year of birth) -- START
 Analysis 3 (Number of persons by year of birth) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 3 (0.037124 secs)
-[Main Analysis] [COMPLETE] 3 (0.037124 secs)
+[Main Analysis] [COMPLETE] 3 (0.075619 secs)
+[Main Analysis] [COMPLETE] 3 (0.075619 secs)
 Analysis 4 (Number of persons by race) -- START
 Analysis 4 (Number of persons by race) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 4 (0.037456 secs)
-[Main Analysis] [COMPLETE] 4 (0.037456 secs)
+[Main Analysis] [COMPLETE] 4 (0.053565 secs)
+[Main Analysis] [COMPLETE] 4 (0.053565 secs)
 Analysis 5 (Number of persons by ethnicity) -- START
 Analysis 5 (Number of persons by ethnicity) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 5 (0.034853 secs)
-[Main Analysis] [COMPLETE] 5 (0.034853 secs)
+[Main Analysis] [COMPLETE] 5 (0.054449 secs)
+[Main Analysis] [COMPLETE] 5 (0.054449 secs)
 Analysis 10 (Number of all persons by year of birth by gender) -- START
 Analysis 10 (Number of all persons by year of birth by gender) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 10 (0.033140 secs)
-[Main Analysis] [COMPLETE] 10 (0.033140 secs)
+[Main Analysis] [COMPLETE] 10 (0.050608 secs)
+[Main Analysis] [COMPLETE] 10 (0.050608 secs)
 Analysis 11 (Number of non-deceased persons by year of birth by gender) -- START
 Analysis 11 (Number of non-deceased persons by year of birth by gender) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 11 (0.040888 secs)
-[Main Analysis] [COMPLETE] 11 (0.040888 secs)
+[Main Analysis] [COMPLETE] 11 (0.051098 secs)
+[Main Analysis] [COMPLETE] 11 (0.051098 secs)
 Analysis 12 (Number of persons by race and ethnicity) -- START
 Analysis 12 (Number of persons by race and ethnicity) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 12 (0.036587 secs)
-[Main Analysis] [COMPLETE] 12 (0.036587 secs)
+[Main Analysis] [COMPLETE] 12 (0.049061 secs)
+[Main Analysis] [COMPLETE] 12 (0.049061 secs)
 Analysis 101 (Number of persons by age, with age at first observation period) -- START
 Analysis 101 (Number of persons by age, with age at first observation period) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 101 (0.058949 secs)
-[Main Analysis] [COMPLETE] 101 (0.058949 secs)
+[Main Analysis] [COMPLETE] 101 (0.057929 secs)
+[Main Analysis] [COMPLETE] 101 (0.057929 secs)
 Analysis 102 (Number of persons by gender by age, with age at first observation period) -- START
 Analysis 102 (Number of persons by gender by age, with age at first observation period) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 102 (0.044097 secs)
-[Main Analysis] [COMPLETE] 102 (0.044097 secs)
+[Main Analysis] [COMPLETE] 102 (0.051051 secs)
+[Main Analysis] [COMPLETE] 102 (0.051051 secs)
 Analysis 103 (Distribution of age at first observation period) -- START
 Analysis 103 (Distribution of age at first observation period) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 103 (0.075970 secs)
-[Main Analysis] [COMPLETE] 103 (0.075970 secs)
+[Main Analysis] [COMPLETE] 103 (0.087502 secs)
+[Main Analysis] [COMPLETE] 103 (0.087502 secs)
 Analysis 104 (Distribution of age at first observation period by gender) -- START
 Analysis 104 (Distribution of age at first observation period by gender) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 104 (0.097755 secs)
-[Main Analysis] [COMPLETE] 104 (0.097755 secs)
+[Main Analysis] [COMPLETE] 104 (0.107486 secs)
+[Main Analysis] [COMPLETE] 104 (0.107486 secs)
 Analysis 105 (Length of observation (days) of first observation period) -- START
 Analysis 105 (Length of observation (days) of first observation period) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |=======                                                               |  10%  |                                                                              |==============                                                        |  20%  |                                                                              |=====================                                                 |  30%  |                                                                              |============================                                          |  40%  |                                                                              |===================================                                   |  50%  |                                                                              |==========================================                            |  60%  |                                                                              |=================================================                     |  70%  |                                                                              |========================================================              |  80%  |                                                                              |===============================================================       |  90%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 105 (0.990667 secs)
-[Main Analysis] [COMPLETE] 105 (0.990667 secs)
+[Main Analysis] [COMPLETE] 105 (0.881650 secs)
+[Main Analysis] [COMPLETE] 105 (0.881650 secs)
 Analysis 106 (Length of observation (days) of first observation period by gender) -- START
 Analysis 106 (Length of observation (days) of first observation period by gender) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==========                                                            |  14%  |                                                                              |====================                                                  |  29%  |                                                                              |==============================                                        |  43%  |                                                                              |========================================                              |  57%  |                                                                              |==================================================                    |  71%  |                                                                              |============================================================          |  86%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 106 (1.214869 secs)
-[Main Analysis] [COMPLETE] 106 (1.214869 secs)
+[Main Analysis] [COMPLETE] 106 (1.056008 secs)
+[Main Analysis] [COMPLETE] 106 (1.056008 secs)
 Analysis 107 (Length of observation (days) of first observation period by age decile) -- START
 Analysis 107 (Length of observation (days) of first observation period by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 107 (1.671591 secs)
-[Main Analysis] [COMPLETE] 107 (1.671591 secs)
+[Main Analysis] [COMPLETE] 107 (1.435986 secs)
+[Main Analysis] [COMPLETE] 107 (1.435986 secs)
 Analysis 108 (Number of persons by length of observation period, in 30d increments) -- START
 Analysis 108 (Number of persons by length of observation period, in 30d increments) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 108 (0.043665 secs)
-[Main Analysis] [COMPLETE] 108 (0.043665 secs)
+[Main Analysis] [COMPLETE] 108 (0.062777 secs)
+[Main Analysis] [COMPLETE] 108 (0.062777 secs)
 Analysis 109 (Number of persons with continuous observation in each year) -- START
 Analysis 109 (Number of persons with continuous observation in each year) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 109 (0.355162 secs)
-[Main Analysis] [COMPLETE] 109 (0.355162 secs)
+[Main Analysis] [COMPLETE] 109 (0.385222 secs)
+[Main Analysis] [COMPLETE] 109 (0.385222 secs)
 Analysis 110 (Number of persons with continuous observation in each month) -- START
 Analysis 110 (Number of persons with continuous observation in each month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 110 (1.620159 secs)
-[Main Analysis] [COMPLETE] 110 (1.620159 secs)
+[Main Analysis] [COMPLETE] 110 (1.655254 secs)
+[Main Analysis] [COMPLETE] 110 (1.655254 secs)
 Analysis 111 (Number of persons by observation period start month) -- START
 Analysis 111 (Number of persons by observation period start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 111 (0.047291 secs)
-[Main Analysis] [COMPLETE] 111 (0.047291 secs)
+[Main Analysis] [COMPLETE] 111 (0.057107 secs)
+[Main Analysis] [COMPLETE] 111 (0.057107 secs)
 Analysis 112 (Number of persons by observation period end month) -- START
 Analysis 112 (Number of persons by observation period end month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 112 (0.041738 secs)
-[Main Analysis] [COMPLETE] 112 (0.041738 secs)
+[Main Analysis] [COMPLETE] 112 (0.059738 secs)
+[Main Analysis] [COMPLETE] 112 (0.059738 secs)
 Analysis 113 (Number of persons by number of observation periods) -- START
 Analysis 113 (Number of persons by number of observation periods) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 113 (0.033976 secs)
-[Main Analysis] [COMPLETE] 113 (0.033976 secs)
+[Main Analysis] [COMPLETE] 113 (0.058498 secs)
+[Main Analysis] [COMPLETE] 113 (0.058498 secs)
 Analysis 116 (Number of persons with at least one day of observation in each year by gender and age decile) -- START
 Analysis 116 (Number of persons with at least one day of observation in each year by gender and age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 116 (0.414159 secs)
-[Main Analysis] [COMPLETE] 116 (0.414159 secs)
+[Main Analysis] [COMPLETE] 116 (0.370445 secs)
+[Main Analysis] [COMPLETE] 116 (0.370445 secs)
 Analysis 117 (Number of persons with at least one day of observation in each month) -- START
 Analysis 117 (Number of persons with at least one day of observation in each month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 117 (2.580190 secs)
-[Main Analysis] [COMPLETE] 117 (2.580190 secs)
+[Main Analysis] [COMPLETE] 117 (2.519083 secs)
+[Main Analysis] [COMPLETE] 117 (2.519083 secs)
 Analysis 119 (Number of observation period records by period_type_concept_id) -- START
 Analysis 119 (Number of observation period records by period_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 119 (0.040504 secs)
-[Main Analysis] [COMPLETE] 119 (0.040504 secs)
+[Main Analysis] [COMPLETE] 119 (0.055632 secs)
+[Main Analysis] [COMPLETE] 119 (0.055632 secs)
 Analysis 200 (Number of persons with at least one visit occurrence, by visit_concept_id) -- START
 Analysis 200 (Number of persons with at least one visit occurrence, by visit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 200 (0.041934 secs)
-[Main Analysis] [COMPLETE] 200 (0.041934 secs)
+[Main Analysis] [COMPLETE] 200 (0.054716 secs)
+[Main Analysis] [COMPLETE] 200 (0.054716 secs)
 Analysis 201 (Number of visit occurrence records, by visit_concept_id) -- START
 Analysis 201 (Number of visit occurrence records, by visit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 201 (0.037309 secs)
-[Main Analysis] [COMPLETE] 201 (0.037309 secs)
+[Main Analysis] [COMPLETE] 201 (0.049267 secs)
+[Main Analysis] [COMPLETE] 201 (0.049267 secs)
 Analysis 202 (Number of persons by visit occurrence start month, by visit_concept_id) -- START
 Analysis 202 (Number of persons by visit occurrence start month, by visit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 202 (0.042113 secs)
-[Main Analysis] [COMPLETE] 202 (0.042113 secs)
+[Main Analysis] [COMPLETE] 202 (0.056997 secs)
+[Main Analysis] [COMPLETE] 202 (0.056997 secs)
 Analysis 203 (Number of distinct visit occurrence concepts per person) -- START
 Analysis 203 (Number of distinct visit occurrence concepts per person) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 203 (0.059815 secs)
-[Main Analysis] [COMPLETE] 203 (0.059815 secs)
+[Main Analysis] [COMPLETE] 203 (0.072432 secs)
+[Main Analysis] [COMPLETE] 203 (0.072432 secs)
 Analysis 204 (Number of persons with at least one visit occurrence, by visit_concept_id by calendar year by gender by age decile) -- START
 Analysis 204 (Number of persons with at least one visit occurrence, by visit_concept_id by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 204 (0.045341 secs)
-[Main Analysis] [COMPLETE] 204 (0.045341 secs)
+[Main Analysis] [COMPLETE] 204 (0.058194 secs)
+[Main Analysis] [COMPLETE] 204 (0.058194 secs)
 Analysis 206 (Distribution of age by visit_concept_id) -- START
 Analysis 206 (Distribution of age by visit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 206 (0.086381 secs)
-[Main Analysis] [COMPLETE] 206 (0.086381 secs)
+[Main Analysis] [COMPLETE] 206 (0.114284 secs)
+[Main Analysis] [COMPLETE] 206 (0.114284 secs)
 Analysis 207 (Number of visit records with invalid person_id) -- START
 Analysis 207 (Number of visit records with invalid person_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 207 (0.043841 secs)
-[Main Analysis] [COMPLETE] 207 (0.043841 secs)
+[Main Analysis] [COMPLETE] 207 (0.065002 secs)
+[Main Analysis] [COMPLETE] 207 (0.065002 secs)
 Analysis 209 (Number of visit records with invalid care_site_id) -- START
 Analysis 209 (Number of visit records with invalid care_site_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 209 (0.049154 secs)
-[Main Analysis] [COMPLETE] 209 (0.049154 secs)
+[Main Analysis] [COMPLETE] 209 (0.062070 secs)
+[Main Analysis] [COMPLETE] 209 (0.062070 secs)
 Analysis 210 (Number of visit_occurrence records outside a valid observation period) -- START
 Analysis 210 (Number of visit_occurrence records outside a valid observation period) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 210 (0.048998 secs)
-[Main Analysis] [COMPLETE] 210 (0.048998 secs)
+[Main Analysis] [COMPLETE] 210 (0.056719 secs)
+[Main Analysis] [COMPLETE] 210 (0.056719 secs)
 Analysis 212 (Number of persons with at least one visit occurrence, by calendar year by gender by age decile) -- START
 Analysis 212 (Number of persons with at least one visit occurrence, by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 212 (0.049836 secs)
-[Main Analysis] [COMPLETE] 212 (0.049836 secs)
+[Main Analysis] [COMPLETE] 212 (0.057883 secs)
+[Main Analysis] [COMPLETE] 212 (0.057883 secs)
 Analysis 213 (Distribution of length of stay by visit_concept_id) -- START
 Analysis 213 (Distribution of length of stay by visit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 213 (0.089936 secs)
-[Main Analysis] [COMPLETE] 213 (0.089936 secs)
+[Main Analysis] [COMPLETE] 213 (0.078511 secs)
+[Main Analysis] [COMPLETE] 213 (0.078511 secs)
 Analysis 220 (Number of visit occurrence records by visit occurrence start month) -- START
 Analysis 220 (Number of visit occurrence records by visit occurrence start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 220 (0.048787 secs)
-[Main Analysis] [COMPLETE] 220 (0.048787 secs)
+[Main Analysis] [COMPLETE] 220 (0.061374 secs)
+[Main Analysis] [COMPLETE] 220 (0.061374 secs)
 Analysis 221 (Number of persons by visit start year) -- START
 Analysis 221 (Number of persons by visit start year) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 221 (0.047866 secs)
-[Main Analysis] [COMPLETE] 221 (0.047866 secs)
+[Main Analysis] [COMPLETE] 221 (0.076636 secs)
+[Main Analysis] [COMPLETE] 221 (0.076636 secs)
 Analysis 225 (Number of visit_occurrence records by visit_source_concept_id) -- START
 Analysis 225 (Number of visit_occurrence records by visit_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 225 (0.049157 secs)
-[Main Analysis] [COMPLETE] 225 (0.049157 secs)
+[Main Analysis] [COMPLETE] 225 (0.074812 secs)
+[Main Analysis] [COMPLETE] 225 (0.074812 secs)
 Analysis 226 (Number of records by domain by visit_concept_id) -- START
 Analysis 226 (Number of records by domain by visit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 226 (0.114391 secs)
-[Main Analysis] [COMPLETE] 226 (0.114391 secs)
+[Main Analysis] [COMPLETE] 226 (0.131634 secs)
+[Main Analysis] [COMPLETE] 226 (0.131634 secs)
 Analysis 300 (Number of providers) -- START
 Analysis 300 (Number of providers) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 300 (0.035585 secs)
-[Main Analysis] [COMPLETE] 300 (0.035585 secs)
+[Main Analysis] [COMPLETE] 300 (0.058781 secs)
+[Main Analysis] [COMPLETE] 300 (0.058781 secs)
 Analysis 301 (Number of providers by specialty concept_id) -- START
 Analysis 301 (Number of providers by specialty concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 301 (0.038421 secs)
-[Main Analysis] [COMPLETE] 301 (0.038421 secs)
+[Main Analysis] [COMPLETE] 301 (0.060506 secs)
+[Main Analysis] [COMPLETE] 301 (0.060506 secs)
 Analysis 303 (Number of providers records by specialty_concept_id and visit_concept_id) -- START
 Analysis 303 (Number of providers records by specialty_concept_id and visit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 303 (0.041070 secs)
-[Main Analysis] [COMPLETE] 303 (0.041070 secs)
+[Main Analysis] [COMPLETE] 303 (0.065219 secs)
+[Main Analysis] [COMPLETE] 303 (0.065219 secs)
 Analysis 325 (Number of provider records by specialty_source_concept_id) -- START
 Analysis 325 (Number of provider records by specialty_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 325 (0.030533 secs)
-[Main Analysis] [COMPLETE] 325 (0.030533 secs)
+[Main Analysis] [COMPLETE] 325 (0.051441 secs)
+[Main Analysis] [COMPLETE] 325 (0.051441 secs)
 Analysis 400 (Number of persons with at least one condition occurrence, by condition_concept_id) -- START
 Analysis 400 (Number of persons with at least one condition occurrence, by condition_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 400 (0.208636 secs)
-[Main Analysis] [COMPLETE] 400 (0.208636 secs)
+[Main Analysis] [COMPLETE] 400 (0.188726 secs)
+[Main Analysis] [COMPLETE] 400 (0.188726 secs)
 Analysis 401 (Number of condition occurrence records, by condition_concept_id) -- START
 Analysis 401 (Number of condition occurrence records, by condition_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 401 (0.071455 secs)
-[Main Analysis] [COMPLETE] 401 (0.071455 secs)
+[Main Analysis] [COMPLETE] 401 (0.088242 secs)
+[Main Analysis] [COMPLETE] 401 (0.088242 secs)
 Analysis 402 (Number of persons by condition occurrence start month, by condition_concept_id) -- START
 Analysis 402 (Number of persons by condition occurrence start month, by condition_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 402 (0.189380 secs)
-[Main Analysis] [COMPLETE] 402 (0.189380 secs)
+[Main Analysis] [COMPLETE] 402 (0.168037 secs)
+[Main Analysis] [COMPLETE] 402 (0.168037 secs)
 Analysis 403 (Number of distinct condition occurrence concepts per person) -- START
 Analysis 403 (Number of distinct condition occurrence concepts per person) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 403 (0.306873 secs)
-[Main Analysis] [COMPLETE] 403 (0.306873 secs)
+[Main Analysis] [COMPLETE] 403 (0.266330 secs)
+[Main Analysis] [COMPLETE] 403 (0.266330 secs)
 Analysis 404 (Number of persons with at least one condition occurrence, by condition_concept_id by calendar year by gender by age decile) -- START
 Analysis 404 (Number of persons with at least one condition occurrence, by condition_concept_id by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 404 (0.176011 secs)
-[Main Analysis] [COMPLETE] 404 (0.176011 secs)
+[Main Analysis] [COMPLETE] 404 (0.197126 secs)
+[Main Analysis] [COMPLETE] 404 (0.197126 secs)
 Analysis 405 (Number of condition occurrence records, by condition_concept_id by condition_type_concept_id) -- START
 Analysis 405 (Number of condition occurrence records, by condition_concept_id by condition_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 405 (0.138483 secs)
-[Main Analysis] [COMPLETE] 405 (0.138483 secs)
+[Main Analysis] [COMPLETE] 405 (0.139849 secs)
+[Main Analysis] [COMPLETE] 405 (0.139849 secs)
 Analysis 406 (Distribution of age by condition_concept_id) -- START
 Analysis 406 (Distribution of age by condition_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==========                                                            |  14%  |                                                                              |====================                                                  |  29%  |                                                                              |==============================                                        |  43%  |                                                                              |========================================                              |  57%  |                                                                              |==================================================                    |  71%  |                                                                              |============================================================          |  86%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 406 (0.363969 secs)
-[Main Analysis] [COMPLETE] 406 (0.363969 secs)
+[Main Analysis] [COMPLETE] 406 (0.362150 secs)
+[Main Analysis] [COMPLETE] 406 (0.362150 secs)
 Analysis 414 (Number of condition occurrence records, by condition_status_concept_id) -- START
 Analysis 414 (Number of condition occurrence records, by condition_status_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 414 (0.130260 secs)
-[Main Analysis] [COMPLETE] 414 (0.130260 secs)
+[Main Analysis] [COMPLETE] 414 (0.152950 secs)
+[Main Analysis] [COMPLETE] 414 (0.152950 secs)
 Analysis 415 (Number of condition occurrence records, by condition_type_concept_id) -- START
 Analysis 415 (Number of condition occurrence records, by condition_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 415 (0.080898 secs)
-[Main Analysis] [COMPLETE] 415 (0.080898 secs)
+[Main Analysis] [COMPLETE] 415 (0.090843 secs)
+[Main Analysis] [COMPLETE] 415 (0.090843 secs)
 Analysis 416 (Number of condition occurrence records, by condition_status_concept_id, condition_type_concept_id) -- START
 Analysis 416 (Number of condition occurrence records, by condition_status_concept_id, condition_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 416 (0.079846 secs)
-[Main Analysis] [COMPLETE] 416 (0.079846 secs)
+[Main Analysis] [COMPLETE] 416 (0.091354 secs)
+[Main Analysis] [COMPLETE] 416 (0.091354 secs)
 Analysis 420 (Number of condition occurrence records by condition occurrence start month) -- START
 Analysis 420 (Number of condition occurrence records by condition occurrence start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 420 (0.149815 secs)
-[Main Analysis] [COMPLETE] 420 (0.149815 secs)
+[Main Analysis] [COMPLETE] 420 (0.155384 secs)
+[Main Analysis] [COMPLETE] 420 (0.155384 secs)
 Analysis 425 (Number of condition_occurrence records by condition_source_concept_id) -- START
 Analysis 425 (Number of condition_occurrence records by condition_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 425 (0.159661 secs)
-[Main Analysis] [COMPLETE] 425 (0.159661 secs)
+[Main Analysis] [COMPLETE] 425 (0.150416 secs)
+[Main Analysis] [COMPLETE] 425 (0.150416 secs)
 Analysis 500 (Number of persons with death, by cause_concept_id) -- START
 Analysis 500 (Number of persons with death, by cause_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 500 (0.031533 secs)
-[Main Analysis] [COMPLETE] 500 (0.031533 secs)
+[Main Analysis] [COMPLETE] 500 (0.048823 secs)
+[Main Analysis] [COMPLETE] 500 (0.048823 secs)
 Analysis 501 (Number of records of death, by cause_concept_id) -- START
 Analysis 501 (Number of records of death, by cause_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 501 (0.035085 secs)
-[Main Analysis] [COMPLETE] 501 (0.035085 secs)
+[Main Analysis] [COMPLETE] 501 (0.049732 secs)
+[Main Analysis] [COMPLETE] 501 (0.049732 secs)
 Analysis 502 (Number of persons by death month) -- START
 Analysis 502 (Number of persons by death month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 502 (0.031983 secs)
-[Main Analysis] [COMPLETE] 502 (0.031983 secs)
+[Main Analysis] [COMPLETE] 502 (0.059602 secs)
+[Main Analysis] [COMPLETE] 502 (0.059602 secs)
 Analysis 504 (Number of persons with a death, by calendar year by gender by age decile) -- START
 Analysis 504 (Number of persons with a death, by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 504 (0.035121 secs)
-[Main Analysis] [COMPLETE] 504 (0.035121 secs)
+[Main Analysis] [COMPLETE] 504 (0.054367 secs)
+[Main Analysis] [COMPLETE] 504 (0.054367 secs)
 Analysis 505 (Number of death records, by death_type_concept_id) -- START
 Analysis 505 (Number of death records, by death_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 505 (0.030980 secs)
-[Main Analysis] [COMPLETE] 505 (0.030980 secs)
+[Main Analysis] [COMPLETE] 505 (0.048232 secs)
+[Main Analysis] [COMPLETE] 505 (0.048232 secs)
 Analysis 506 (Distribution of age at death by gender) -- START
 Analysis 506 (Distribution of age at death by gender) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 506 (0.052012 secs)
-[Main Analysis] [COMPLETE] 506 (0.052012 secs)
+[Main Analysis] [COMPLETE] 506 (0.060907 secs)
+[Main Analysis] [COMPLETE] 506 (0.060907 secs)
 Analysis 511 (Distribution of time from death to last condition) -- START
 Analysis 511 (Distribution of time from death to last condition) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 511 (0.043735 secs)
-[Main Analysis] [COMPLETE] 511 (0.043735 secs)
+[Main Analysis] [COMPLETE] 511 (0.054085 secs)
+[Main Analysis] [COMPLETE] 511 (0.054085 secs)
 Analysis 512 (Distribution of time from death to last drug) -- START
 Analysis 512 (Distribution of time from death to last drug) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 512 (0.162238 secs)
-[Main Analysis] [COMPLETE] 512 (0.162238 secs)
+[Main Analysis] [COMPLETE] 512 (0.163819 secs)
+[Main Analysis] [COMPLETE] 512 (0.163819 secs)
 Analysis 513 (Distribution of time from death to last visit) -- START
 Analysis 513 (Distribution of time from death to last visit) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 513 (0.054899 secs)
-[Main Analysis] [COMPLETE] 513 (0.054899 secs)
+[Main Analysis] [COMPLETE] 513 (0.069432 secs)
+[Main Analysis] [COMPLETE] 513 (0.069432 secs)
 Analysis 514 (Distribution of time from death to last procedure) -- START
 Analysis 514 (Distribution of time from death to last procedure) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 514 (0.045338 secs)
-[Main Analysis] [COMPLETE] 514 (0.045338 secs)
+[Main Analysis] [COMPLETE] 514 (0.061642 secs)
+[Main Analysis] [COMPLETE] 514 (0.061642 secs)
 Analysis 515 (Distribution of time from death to last observation) -- START
 Analysis 515 (Distribution of time from death to last observation) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 515 (0.044153 secs)
-[Main Analysis] [COMPLETE] 515 (0.044153 secs)
+[Main Analysis] [COMPLETE] 515 (0.063422 secs)
+[Main Analysis] [COMPLETE] 515 (0.063422 secs)
 Analysis 525 (Number of death records by cause_source_concept_id) -- START
 Analysis 525 (Number of death records by cause_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 525 (0.031440 secs)
-[Main Analysis] [COMPLETE] 525 (0.031440 secs)
+[Main Analysis] [COMPLETE] 525 (0.041665 secs)
+[Main Analysis] [COMPLETE] 525 (0.041665 secs)
 Analysis 600 (Number of persons with at least one procedure occurrence, by procedure_concept_id) -- START
 Analysis 600 (Number of persons with at least one procedure occurrence, by procedure_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 600 (0.035335 secs)
-[Main Analysis] [COMPLETE] 600 (0.035335 secs)
+[Main Analysis] [COMPLETE] 600 (0.051543 secs)
+[Main Analysis] [COMPLETE] 600 (0.051543 secs)
 Analysis 601 (Number of procedure occurrence records, by procedure_concept_id) -- START
 Analysis 601 (Number of procedure occurrence records, by procedure_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 601 (0.033518 secs)
-[Main Analysis] [COMPLETE] 601 (0.033518 secs)
+[Main Analysis] [COMPLETE] 601 (0.046339 secs)
+[Main Analysis] [COMPLETE] 601 (0.046339 secs)
 Analysis 602 (Number of persons by procedure occurrence start month, by procedure_concept_id) -- START
 Analysis 602 (Number of persons by procedure occurrence start month, by procedure_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 602 (0.035517 secs)
-[Main Analysis] [COMPLETE] 602 (0.035517 secs)
+[Main Analysis] [COMPLETE] 602 (0.048758 secs)
+[Main Analysis] [COMPLETE] 602 (0.048758 secs)
 Analysis 603 (Number of distinct procedure occurrence concepts per person) -- START
 Analysis 603 (Number of distinct procedure occurrence concepts per person) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 603 (0.051199 secs)
-[Main Analysis] [COMPLETE] 603 (0.051199 secs)
+[Main Analysis] [COMPLETE] 603 (0.057740 secs)
+[Main Analysis] [COMPLETE] 603 (0.057740 secs)
 Analysis 604 (Number of persons with at least one procedure occurrence, by procedure_concept_id by calendar year by gender by age decile) -- START
 Analysis 604 (Number of persons with at least one procedure occurrence, by procedure_concept_id by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 604 (0.034415 secs)
-[Main Analysis] [COMPLETE] 604 (0.034415 secs)
+[Main Analysis] [COMPLETE] 604 (0.049320 secs)
+[Main Analysis] [COMPLETE] 604 (0.049320 secs)
 Analysis 605 (Number of procedure occurrence records, by procedure_concept_id by procedure_type_concept_id) -- START
 Analysis 605 (Number of procedure occurrence records, by procedure_concept_id by procedure_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 605 (0.029920 secs)
-[Main Analysis] [COMPLETE] 605 (0.029920 secs)
+[Main Analysis] [COMPLETE] 605 (0.058549 secs)
+[Main Analysis] [COMPLETE] 605 (0.058549 secs)
 Analysis 606 (Distribution of age by procedure_concept_id) -- START
 Analysis 606 (Distribution of age by procedure_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==========                                                            |  14%  |                                                                              |====================                                                  |  29%  |                                                                              |==============================                                        |  43%  |                                                                              |========================================                              |  57%  |                                                                              |==================================================                    |  71%  |                                                                              |============================================================          |  86%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 606 (0.055619 secs)
-[Main Analysis] [COMPLETE] 606 (0.055619 secs)
+[Main Analysis] [COMPLETE] 606 (0.073105 secs)
+[Main Analysis] [COMPLETE] 606 (0.073105 secs)
 Analysis 620 (Number of procedure occurrence records  by procedure occurrence start month) -- START
 Analysis 620 (Number of procedure occurrence records  by procedure occurrence start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 620 (0.028345 secs)
-[Main Analysis] [COMPLETE] 620 (0.028345 secs)
+[Main Analysis] [COMPLETE] 620 (0.048432 secs)
+[Main Analysis] [COMPLETE] 620 (0.048432 secs)
 Analysis 625 (Number of procedure_occurrence records by procedure_source_concept_id) -- START
 Analysis 625 (Number of procedure_occurrence records by procedure_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 625 (0.034456 secs)
-[Main Analysis] [COMPLETE] 625 (0.034456 secs)
+[Main Analysis] [COMPLETE] 625 (0.052589 secs)
+[Main Analysis] [COMPLETE] 625 (0.052589 secs)
 Analysis 630 (Number of procedure_occurrence records inside a valid observation period) -- START
 Analysis 630 (Number of procedure_occurrence records inside a valid observation period) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 630 (0.032555 secs)
-[Main Analysis] [COMPLETE] 630 (0.032555 secs)
+[Main Analysis] [COMPLETE] 630 (0.048434 secs)
+[Main Analysis] [COMPLETE] 630 (0.048434 secs)
 Analysis 691 (Percentage of total persons that have at least x procedures) -- START
 Analysis 691 (Percentage of total persons that have at least x procedures) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 691 (0.042314 secs)
-[Main Analysis] [COMPLETE] 691 (0.042314 secs)
+[Main Analysis] [COMPLETE] 691 (0.067498 secs)
+[Main Analysis] [COMPLETE] 691 (0.067498 secs)
 Analysis 700 (Number of persons with at least one drug exposure, by drug_concept_id) -- START
 Analysis 700 (Number of persons with at least one drug exposure, by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 700 (0.104003 secs)
-[Main Analysis] [COMPLETE] 700 (0.104003 secs)
+[Main Analysis] [COMPLETE] 700 (0.109622 secs)
+[Main Analysis] [COMPLETE] 700 (0.109622 secs)
 Analysis 701 (Number of drug exposure records, by drug_concept_id) -- START
 Analysis 701 (Number of drug exposure records, by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 701 (0.073908 secs)
-[Main Analysis] [COMPLETE] 701 (0.073908 secs)
+[Main Analysis] [COMPLETE] 701 (0.097270 secs)
+[Main Analysis] [COMPLETE] 701 (0.097270 secs)
 Analysis 702 (Number of persons by drug exposure start month, by drug_concept_id) -- START
 Analysis 702 (Number of persons by drug exposure start month, by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 702 (0.169667 secs)
-[Main Analysis] [COMPLETE] 702 (0.169667 secs)
+[Main Analysis] [COMPLETE] 702 (0.203418 secs)
+[Main Analysis] [COMPLETE] 702 (0.203418 secs)
 Analysis 703 (Number of distinct drug exposure concepts per person) -- START
 Analysis 703 (Number of distinct drug exposure concepts per person) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 703 (0.239474 secs)
-[Main Analysis] [COMPLETE] 703 (0.239474 secs)
+[Main Analysis] [COMPLETE] 703 (0.241721 secs)
+[Main Analysis] [COMPLETE] 703 (0.241721 secs)
 Analysis 704 (Number of persons with at least one drug exposure, by drug_concept_id by calendar year by gender by age decile) -- START
 Analysis 704 (Number of persons with at least one drug exposure, by drug_concept_id by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 704 (0.177288 secs)
-[Main Analysis] [COMPLETE] 704 (0.177288 secs)
+[Main Analysis] [COMPLETE] 704 (0.197882 secs)
+[Main Analysis] [COMPLETE] 704 (0.197882 secs)
 Analysis 705 (Number of drug exposure records, by drug_concept_id by drug_type_concept_id) -- START
 Analysis 705 (Number of drug exposure records, by drug_concept_id by drug_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 705 (0.153451 secs)
-[Main Analysis] [COMPLETE] 705 (0.153451 secs)
+[Main Analysis] [COMPLETE] 705 (0.164987 secs)
+[Main Analysis] [COMPLETE] 705 (0.164987 secs)
 Analysis 706 (Distribution of age by drug_concept_id) -- START
 Analysis 706 (Distribution of age by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==========                                                            |  14%  |                                                                              |====================                                                  |  29%  |                                                                              |==============================                                        |  43%  |                                                                              |========================================                              |  57%  |                                                                              |==================================================                    |  71%  |                                                                              |============================================================          |  86%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 706 (0.340351 secs)
-[Main Analysis] [COMPLETE] 706 (0.340351 secs)
+[Main Analysis] [COMPLETE] 706 (0.350285 secs)
+[Main Analysis] [COMPLETE] 706 (0.350285 secs)
 Analysis 715 (Distribution of days_supply by drug_concept_id) -- START
 Analysis 715 (Distribution of days_supply by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 715 (0.256078 secs)
-[Main Analysis] [COMPLETE] 715 (0.256078 secs)
+[Main Analysis] [COMPLETE] 715 (0.240778 secs)
+[Main Analysis] [COMPLETE] 715 (0.240778 secs)
 Analysis 716 (Distribution of refills by drug_concept_id) -- START
 Analysis 716 (Distribution of refills by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 716 (0.402487 secs)
-[Main Analysis] [COMPLETE] 716 (0.402487 secs)
+[Main Analysis] [COMPLETE] 716 (0.387660 secs)
+[Main Analysis] [COMPLETE] 716 (0.387660 secs)
 Analysis 717 (Distribution of quantity by drug_concept_id) -- START
 Analysis 717 (Distribution of quantity by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 717 (0.382523 secs)
-[Main Analysis] [COMPLETE] 717 (0.382523 secs)
+[Main Analysis] [COMPLETE] 717 (0.307278 secs)
+[Main Analysis] [COMPLETE] 717 (0.307278 secs)
 Analysis 720 (Number of drug exposure records  by drug exposure start month) -- START
 Analysis 720 (Number of drug exposure records  by drug exposure start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 720 (0.145225 secs)
-[Main Analysis] [COMPLETE] 720 (0.145225 secs)
+[Main Analysis] [COMPLETE] 720 (0.151609 secs)
+[Main Analysis] [COMPLETE] 720 (0.151609 secs)
 Analysis 725 (Number of drug_exposure records by drug_source_concept_id) -- START
 Analysis 725 (Number of drug_exposure records by drug_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 725 (0.147812 secs)
-[Main Analysis] [COMPLETE] 725 (0.147812 secs)
+[Main Analysis] [COMPLETE] 725 (0.157048 secs)
+[Main Analysis] [COMPLETE] 725 (0.157048 secs)
 Analysis 791 (Percentage of total persons that have at least x drug exposures) -- START
 Analysis 791 (Percentage of total persons that have at least x drug exposures) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 791 (0.131139 secs)
-[Main Analysis] [COMPLETE] 791 (0.131139 secs)
+[Main Analysis] [COMPLETE] 791 (0.155499 secs)
+[Main Analysis] [COMPLETE] 791 (0.155499 secs)
 Analysis 800 (Number of persons with at least one observation occurrence, by observation_concept_id) -- START
 Analysis 800 (Number of persons with at least one observation occurrence, by observation_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 800 (0.032169 secs)
-[Main Analysis] [COMPLETE] 800 (0.032169 secs)
+[Main Analysis] [COMPLETE] 800 (0.053831 secs)
+[Main Analysis] [COMPLETE] 800 (0.053831 secs)
 Analysis 801 (Number of observation occurrence records, by observation_concept_id) -- START
 Analysis 801 (Number of observation occurrence records, by observation_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 801 (0.031774 secs)
-[Main Analysis] [COMPLETE] 801 (0.031774 secs)
+[Main Analysis] [COMPLETE] 801 (0.052529 secs)
+[Main Analysis] [COMPLETE] 801 (0.052529 secs)
 Analysis 802 (Number of persons by observation occurrence start month, by observation_concept_id) -- START
 Analysis 802 (Number of persons by observation occurrence start month, by observation_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 802 (0.029642 secs)
-[Main Analysis] [COMPLETE] 802 (0.029642 secs)
+[Main Analysis] [COMPLETE] 802 (0.058706 secs)
+[Main Analysis] [COMPLETE] 802 (0.058706 secs)
 Analysis 803 (Number of distinct observation occurrence concepts per person) -- START
 Analysis 803 (Number of distinct observation occurrence concepts per person) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 803 (0.041022 secs)
-[Main Analysis] [COMPLETE] 803 (0.041022 secs)
+[Main Analysis] [COMPLETE] 803 (0.066041 secs)
+[Main Analysis] [COMPLETE] 803 (0.066041 secs)
 Analysis 804 (Number of persons with at least one observation occurrence, by observation_concept_id by calendar year by gender by age decile) -- START
 Analysis 804 (Number of persons with at least one observation occurrence, by observation_concept_id by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 804 (0.032128 secs)
-[Main Analysis] [COMPLETE] 804 (0.032128 secs)
+[Main Analysis] [COMPLETE] 804 (0.047942 secs)
+[Main Analysis] [COMPLETE] 804 (0.047942 secs)
 Analysis 805 (Number of observation occurrence records, by observation_concept_id by observation_type_concept_id) -- START
 Analysis 805 (Number of observation occurrence records, by observation_concept_id by observation_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 805 (0.033686 secs)
-[Main Analysis] [COMPLETE] 805 (0.033686 secs)
+[Main Analysis] [COMPLETE] 805 (0.046533 secs)
+[Main Analysis] [COMPLETE] 805 (0.046533 secs)
 Analysis 806 (Distribution of age by observation_concept_id) -- START
 Analysis 806 (Distribution of age by observation_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==========                                                            |  14%  |                                                                              |====================                                                  |  29%  |                                                                              |==============================                                        |  43%  |                                                                              |========================================                              |  57%  |                                                                              |==================================================                    |  71%  |                                                                              |============================================================          |  86%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 806 (0.054152 secs)
-[Main Analysis] [COMPLETE] 806 (0.054152 secs)
+[Main Analysis] [COMPLETE] 806 (0.073122 secs)
+[Main Analysis] [COMPLETE] 806 (0.073122 secs)
 Analysis 807 (Number of observation occurrence records, by observation_concept_id and unit_concept_id) -- START
 Analysis 807 (Number of observation occurrence records, by observation_concept_id and unit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 807 (0.028847 secs)
-[Main Analysis] [COMPLETE] 807 (0.028847 secs)
+[Main Analysis] [COMPLETE] 807 (0.047076 secs)
+[Main Analysis] [COMPLETE] 807 (0.047076 secs)
 Analysis 814 (Number of observation records with no value (numeric, string, or concept)) -- START
 Analysis 814 (Number of observation records with no value (numeric, string, or concept)) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 814 (0.026832 secs)
-[Main Analysis] [COMPLETE] 814 (0.026832 secs)
+[Main Analysis] [COMPLETE] 814 (0.046559 secs)
+[Main Analysis] [COMPLETE] 814 (0.046559 secs)
 Analysis 815 (Distribution of numeric values, by observation_concept_id and unit_concept_id) -- START
 Analysis 815 (Distribution of numeric values, by observation_concept_id and unit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |=======                                                               |  10%  |                                                                              |==============                                                        |  20%  |                                                                              |=====================                                                 |  30%  |                                                                              |============================                                          |  40%  |                                                                              |===================================                                   |  50%  |                                                                              |==========================================                            |  60%  |                                                                              |=================================================                     |  70%  |                                                                              |========================================================              |  80%  |                                                                              |===============================================================       |  90%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 815 (0.057203 secs)
-[Main Analysis] [COMPLETE] 815 (0.057203 secs)
+[Main Analysis] [COMPLETE] 815 (0.074923 secs)
+[Main Analysis] [COMPLETE] 815 (0.074923 secs)
 Analysis 820 (Number of observation records  by observation start month) -- START
 Analysis 820 (Number of observation records  by observation start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 820 (0.031564 secs)
-[Main Analysis] [COMPLETE] 820 (0.031564 secs)
+[Main Analysis] [COMPLETE] 820 (0.058083 secs)
+[Main Analysis] [COMPLETE] 820 (0.058083 secs)
 Analysis 822 (Number of observation records, by observation_concept_id and value_as_concept_id) -- START
 Analysis 822 (Number of observation records, by observation_concept_id and value_as_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 822 (0.030322 secs)
-[Main Analysis] [COMPLETE] 822 (0.030322 secs)
+[Main Analysis] [COMPLETE] 822 (0.044212 secs)
+[Main Analysis] [COMPLETE] 822 (0.044212 secs)
 Analysis 823 (Number of observation records, by observation_concept_id and qualifier_concept_id) -- START
 Analysis 823 (Number of observation records, by observation_concept_id and qualifier_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 823 (0.029934 secs)
-[Main Analysis] [COMPLETE] 823 (0.029934 secs)
+[Main Analysis] [COMPLETE] 823 (0.048540 secs)
+[Main Analysis] [COMPLETE] 823 (0.048540 secs)
 Analysis 825 (Number of observation records by observation_source_concept_id) -- START
 Analysis 825 (Number of observation records by observation_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 825 (0.029197 secs)
-[Main Analysis] [COMPLETE] 825 (0.029197 secs)
+[Main Analysis] [COMPLETE] 825 (0.046277 secs)
+[Main Analysis] [COMPLETE] 825 (0.046277 secs)
 Analysis 826 (Number of observation records by value_as_concept_id) -- START
 Analysis 826 (Number of observation records by value_as_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 826 (0.038751 secs)
-[Main Analysis] [COMPLETE] 826 (0.038751 secs)
+[Main Analysis] [COMPLETE] 826 (0.043760 secs)
+[Main Analysis] [COMPLETE] 826 (0.043760 secs)
 Analysis 827 (Number of observation records by unit_concept_id) -- START
 Analysis 827 (Number of observation records by unit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 827 (0.033980 secs)
-[Main Analysis] [COMPLETE] 827 (0.033980 secs)
+[Main Analysis] [COMPLETE] 827 (0.048302 secs)
+[Main Analysis] [COMPLETE] 827 (0.048302 secs)
 Analysis 891 (Percentage of total persons that have at least x observations) -- START
 Analysis 891 (Percentage of total persons that have at least x observations) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 891 (0.028890 secs)
-[Main Analysis] [COMPLETE] 891 (0.028890 secs)
+[Main Analysis] [COMPLETE] 891 (0.052997 secs)
+[Main Analysis] [COMPLETE] 891 (0.052997 secs)
 Analysis 900 (Number of persons with at least one drug era, by drug_concept_id) -- START
 Analysis 900 (Number of persons with at least one drug era, by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 900 (0.119888 secs)
-[Main Analysis] [COMPLETE] 900 (0.119888 secs)
+[Main Analysis] [COMPLETE] 900 (0.136858 secs)
+[Main Analysis] [COMPLETE] 900 (0.136858 secs)
 Analysis 901 (Number of drug era records, by drug_concept_id) -- START
 Analysis 901 (Number of drug era records, by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 901 (0.074702 secs)
-[Main Analysis] [COMPLETE] 901 (0.074702 secs)
+[Main Analysis] [COMPLETE] 901 (0.082044 secs)
+[Main Analysis] [COMPLETE] 901 (0.082044 secs)
 Analysis 902 (Number of persons by drug era start month, by drug_concept_id) -- START
 Analysis 902 (Number of persons by drug era start month, by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 902 (0.168932 secs)
-[Main Analysis] [COMPLETE] 902 (0.168932 secs)
+[Main Analysis] [COMPLETE] 902 (0.180385 secs)
+[Main Analysis] [COMPLETE] 902 (0.180385 secs)
 Analysis 903 (Number of distinct drug era concepts per person) -- START
 Analysis 903 (Number of distinct drug era concepts per person) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 903 (0.240622 secs)
-[Main Analysis] [COMPLETE] 903 (0.240622 secs)
+[Main Analysis] [COMPLETE] 903 (0.235714 secs)
+[Main Analysis] [COMPLETE] 903 (0.235714 secs)
 Analysis 904 (Number of persons with at least one drug era, by drug_concept_id by calendar year by gender by age decile) -- START
 Analysis 904 (Number of persons with at least one drug era, by drug_concept_id by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 904 (0.174286 secs)
-[Main Analysis] [COMPLETE] 904 (0.174286 secs)
+[Main Analysis] [COMPLETE] 904 (0.169660 secs)
+[Main Analysis] [COMPLETE] 904 (0.169660 secs)
 Analysis 906 (Distribution of age by drug_concept_id) -- START
 Analysis 906 (Distribution of age by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==========                                                            |  14%  |                                                                              |====================                                                  |  29%  |                                                                              |==============================                                        |  43%  |                                                                              |========================================                              |  57%  |                                                                              |==================================================                    |  71%  |                                                                              |============================================================          |  86%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 906 (0.418622 secs)
-[Main Analysis] [COMPLETE] 906 (0.418622 secs)
+[Main Analysis] [COMPLETE] 906 (0.375226 secs)
+[Main Analysis] [COMPLETE] 906 (0.375226 secs)
 Analysis 907 (Distribution of drug era length, by drug_concept_id) -- START
 Analysis 907 (Distribution of drug era length, by drug_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 907 (0.251310 secs)
-[Main Analysis] [COMPLETE] 907 (0.251310 secs)
+[Main Analysis] [COMPLETE] 907 (0.251868 secs)
+[Main Analysis] [COMPLETE] 907 (0.251868 secs)
 Analysis 920 (Number of drug era records by drug era start month) -- START
 Analysis 920 (Number of drug era records by drug era start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 920 (0.145350 secs)
-[Main Analysis] [COMPLETE] 920 (0.145350 secs)
+[Main Analysis] [COMPLETE] 920 (0.169049 secs)
+[Main Analysis] [COMPLETE] 920 (0.169049 secs)
 Analysis 1000 (Number of persons with at least one condition era, by condition_concept_id) -- START
 Analysis 1000 (Number of persons with at least one condition era, by condition_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1000 (0.199272 secs)
-[Main Analysis] [COMPLETE] 1000 (0.199272 secs)
+[Main Analysis] [COMPLETE] 1000 (0.170799 secs)
+[Main Analysis] [COMPLETE] 1000 (0.170799 secs)
 Analysis 1001 (Number of condition era records, by condition_concept_id) -- START
 Analysis 1001 (Number of condition era records, by condition_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1001 (0.087086 secs)
-[Main Analysis] [COMPLETE] 1001 (0.087086 secs)
+[Main Analysis] [COMPLETE] 1001 (0.081311 secs)
+[Main Analysis] [COMPLETE] 1001 (0.081311 secs)
 Analysis 1002 (Number of persons by condition era start month, by condition_concept_id) -- START
 Analysis 1002 (Number of persons by condition era start month, by condition_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1002 (0.189701 secs)
-[Main Analysis] [COMPLETE] 1002 (0.189701 secs)
+[Main Analysis] [COMPLETE] 1002 (0.184607 secs)
+[Main Analysis] [COMPLETE] 1002 (0.184607 secs)
 Analysis 1003 (Number of distinct condition era concepts per person) -- START
 Analysis 1003 (Number of distinct condition era concepts per person) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1003 (0.328421 secs)
-[Main Analysis] [COMPLETE] 1003 (0.328421 secs)
+[Main Analysis] [COMPLETE] 1003 (0.260642 secs)
+[Main Analysis] [COMPLETE] 1003 (0.260642 secs)
 Analysis 1004 (Number of persons with at least one condition era, by condition_concept_id by calendar year by gender by age decile) -- START
 Analysis 1004 (Number of persons with at least one condition era, by condition_concept_id by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1004 (0.207706 secs)
-[Main Analysis] [COMPLETE] 1004 (0.207706 secs)
+[Main Analysis] [COMPLETE] 1004 (0.185941 secs)
+[Main Analysis] [COMPLETE] 1004 (0.185941 secs)
 Analysis 1006 (Distribution of age by condition_concept_id) -- START
 Analysis 1006 (Distribution of age by condition_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==========                                                            |  14%  |                                                                              |====================                                                  |  29%  |                                                                              |==============================                                        |  43%  |                                                                              |========================================                              |  57%  |                                                                              |==================================================                    |  71%  |                                                                              |============================================================          |  86%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1006 (0.363854 secs)
-[Main Analysis] [COMPLETE] 1006 (0.363854 secs)
+[Main Analysis] [COMPLETE] 1006 (0.355086 secs)
+[Main Analysis] [COMPLETE] 1006 (0.355086 secs)
 Analysis 1007 (Distribution of condition era length, by condition_concept_id) -- START
 Analysis 1007 (Distribution of condition era length, by condition_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1007 (0.435055 secs)
-[Main Analysis] [COMPLETE] 1007 (0.435055 secs)
+[Main Analysis] [COMPLETE] 1007 (0.349331 secs)
+[Main Analysis] [COMPLETE] 1007 (0.349331 secs)
 Analysis 1020 (Number of condition era records by condition era start month) -- START
 Analysis 1020 (Number of condition era records by condition era start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1020 (0.234992 secs)
-[Main Analysis] [COMPLETE] 1020 (0.234992 secs)
+[Main Analysis] [COMPLETE] 1020 (0.169710 secs)
+[Main Analysis] [COMPLETE] 1020 (0.169710 secs)
 Analysis 1100 (Number of persons by location 3-digit zip) -- START
 Analysis 1100 (Number of persons by location 3-digit zip) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1100 (0.050296 secs)
-[Main Analysis] [COMPLETE] 1100 (0.050296 secs)
+[Main Analysis] [COMPLETE] 1100 (0.055328 secs)
+[Main Analysis] [COMPLETE] 1100 (0.055328 secs)
 Analysis 1101 (Number of persons by location state) -- START
 Analysis 1101 (Number of persons by location state) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1101 (0.055601 secs)
-[Main Analysis] [COMPLETE] 1101 (0.055601 secs)
+[Main Analysis] [COMPLETE] 1101 (0.053597 secs)
+[Main Analysis] [COMPLETE] 1101 (0.053597 secs)
 Analysis 1102 (Number of care sites by location 3-digit zip) -- START
 Analysis 1102 (Number of care sites by location 3-digit zip) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1102 (0.047968 secs)
-[Main Analysis] [COMPLETE] 1102 (0.047968 secs)
+[Main Analysis] [COMPLETE] 1102 (0.050923 secs)
+[Main Analysis] [COMPLETE] 1102 (0.050923 secs)
 Analysis 1103 (Number of care sites by location state) -- START
 Analysis 1103 (Number of care sites by location state) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1103 (0.047549 secs)
-[Main Analysis] [COMPLETE] 1103 (0.047549 secs)
+[Main Analysis] [COMPLETE] 1103 (0.050553 secs)
+[Main Analysis] [COMPLETE] 1103 (0.050553 secs)
 Analysis 1200 (Number of persons by place of service) -- START
 Analysis 1200 (Number of persons by place of service) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1200 (0.053313 secs)
-[Main Analysis] [COMPLETE] 1200 (0.053313 secs)
+[Main Analysis] [COMPLETE] 1200 (0.057545 secs)
+[Main Analysis] [COMPLETE] 1200 (0.057545 secs)
 Analysis 1201 (Number of visits by place of service) -- START
 Analysis 1201 (Number of visits by place of service) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1201 (0.046963 secs)
-[Main Analysis] [COMPLETE] 1201 (0.046963 secs)
+[Main Analysis] [COMPLETE] 1201 (0.058721 secs)
+[Main Analysis] [COMPLETE] 1201 (0.058721 secs)
 Analysis 1202 (Number of care sites by place of service) -- START
 Analysis 1202 (Number of care sites by place of service) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1202 (0.052114 secs)
-[Main Analysis] [COMPLETE] 1202 (0.052114 secs)
+[Main Analysis] [COMPLETE] 1202 (0.053548 secs)
+[Main Analysis] [COMPLETE] 1202 (0.053548 secs)
 Analysis 1203 (Number of visits by place of service discharge type) -- START
 Analysis 1203 (Number of visits by place of service discharge type) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1203 (0.054638 secs)
-[Main Analysis] [COMPLETE] 1203 (0.054638 secs)
+[Main Analysis] [COMPLETE] 1203 (0.059610 secs)
+[Main Analysis] [COMPLETE] 1203 (0.059610 secs)
 Analysis 1300 (Number of persons with at least one visit detail, by visit_detail_concept_id) -- START
 Analysis 1300 (Number of persons with at least one visit detail, by visit_detail_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1300 (0.049968 secs)
-[Main Analysis] [COMPLETE] 1300 (0.049968 secs)
+[Main Analysis] [COMPLETE] 1300 (0.054485 secs)
+[Main Analysis] [COMPLETE] 1300 (0.054485 secs)
 Analysis 1301 (Number of visit detail records, by visit_detail_concept_id) -- START
 Analysis 1301 (Number of visit detail records, by visit_detail_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1301 (0.039227 secs)
-[Main Analysis] [COMPLETE] 1301 (0.039227 secs)
+[Main Analysis] [COMPLETE] 1301 (0.049594 secs)
+[Main Analysis] [COMPLETE] 1301 (0.049594 secs)
 Analysis 1302 (Number of persons by visit detail start month, by visit_detail_concept_id) -- START
 Analysis 1302 (Number of persons by visit detail start month, by visit_detail_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1302 (0.042582 secs)
-[Main Analysis] [COMPLETE] 1302 (0.042582 secs)
+[Main Analysis] [COMPLETE] 1302 (0.057765 secs)
+[Main Analysis] [COMPLETE] 1302 (0.057765 secs)
 Analysis 1303 (Number of distinct visit detail concepts per person) -- START
 Analysis 1303 (Number of distinct visit detail concepts per person) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1303 (0.055687 secs)
-[Main Analysis] [COMPLETE] 1303 (0.055687 secs)
+[Main Analysis] [COMPLETE] 1303 (0.070656 secs)
+[Main Analysis] [COMPLETE] 1303 (0.070656 secs)
 Analysis 1304 (Number of persons with at least one visit detail, by visit_detail_concept_id by calendar year by gender by age decile) -- START
 Analysis 1304 (Number of persons with at least one visit detail, by visit_detail_concept_id by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1304 (0.036475 secs)
-[Main Analysis] [COMPLETE] 1304 (0.036475 secs)
+[Main Analysis] [COMPLETE] 1304 (0.054757 secs)
+[Main Analysis] [COMPLETE] 1304 (0.054757 secs)
 Analysis 1306 (Distribution of age by visit_detail_concept_id) -- START
 Analysis 1306 (Distribution of age by visit_detail_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1306 (0.051391 secs)
-[Main Analysis] [COMPLETE] 1306 (0.051391 secs)
+[Main Analysis] [COMPLETE] 1306 (0.065185 secs)
+[Main Analysis] [COMPLETE] 1306 (0.065185 secs)
 Analysis 1312 (Number of persons with at least one visit detail, by calendar year by gender by age decile) -- START
 Analysis 1312 (Number of persons with at least one visit detail, by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1312 (0.033308 secs)
-[Main Analysis] [COMPLETE] 1312 (0.033308 secs)
+[Main Analysis] [COMPLETE] 1312 (0.047457 secs)
+[Main Analysis] [COMPLETE] 1312 (0.047457 secs)
 Analysis 1313 (Distribution of length of stay by visit_detail_concept_id) -- START
 Analysis 1313 (Distribution of length of stay by visit_detail_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1313 (0.059539 secs)
-[Main Analysis] [COMPLETE] 1313 (0.059539 secs)
+[Main Analysis] [COMPLETE] 1313 (0.067942 secs)
+[Main Analysis] [COMPLETE] 1313 (0.067942 secs)
 Analysis 1320 (Number of visit detail records by visit detail start month) -- START
 Analysis 1320 (Number of visit detail records by visit detail start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1320 (0.048080 secs)
-[Main Analysis] [COMPLETE] 1320 (0.048080 secs)
+[Main Analysis] [COMPLETE] 1320 (0.049973 secs)
+[Main Analysis] [COMPLETE] 1320 (0.049973 secs)
 Analysis 1321 (Number of persons by visit start year) -- START
 Analysis 1321 (Number of persons by visit start year) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1321 (0.041163 secs)
-[Main Analysis] [COMPLETE] 1321 (0.041163 secs)
+[Main Analysis] [COMPLETE] 1321 (0.052104 secs)
+[Main Analysis] [COMPLETE] 1321 (0.052104 secs)
 Analysis 1325 (Number of visit_detail records by visit_detail_source_concept_id) -- START
 Analysis 1325 (Number of visit_detail records by visit_detail_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1325 (0.043056 secs)
-[Main Analysis] [COMPLETE] 1325 (0.043056 secs)
+[Main Analysis] [COMPLETE] 1325 (0.059790 secs)
+[Main Analysis] [COMPLETE] 1325 (0.059790 secs)
 Analysis 1326 (Number of records by domain by visit_detail_concept_id) -- START
 Analysis 1326 (Number of records by domain by visit_detail_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1326 (0.103625 secs)
-[Main Analysis] [COMPLETE] 1326 (0.103625 secs)
+[Main Analysis] [COMPLETE] 1326 (0.095926 secs)
+[Main Analysis] [COMPLETE] 1326 (0.095926 secs)
 Analysis 1406 (Length of payer plan (days) of first payer plan period by gender) -- START
 Analysis 1406 (Length of payer plan (days) of first payer plan period by gender) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1406 (0.048112 secs)
-[Main Analysis] [COMPLETE] 1406 (0.048112 secs)
+[Main Analysis] [COMPLETE] 1406 (0.069083 secs)
+[Main Analysis] [COMPLETE] 1406 (0.069083 secs)
 Analysis 1407 (Length of payer plan (days) of first payer plan period by age decile) -- START
 Analysis 1407 (Length of payer plan (days) of first payer plan period by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1407 (0.047985 secs)
-[Main Analysis] [COMPLETE] 1407 (0.047985 secs)
+[Main Analysis] [COMPLETE] 1407 (0.070621 secs)
+[Main Analysis] [COMPLETE] 1407 (0.070621 secs)
 Analysis 1408 (Number of persons by length of payer plan period, in 30d increments) -- START
 Analysis 1408 (Number of persons by length of payer plan period, in 30d increments) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1408 (0.036076 secs)
-[Main Analysis] [COMPLETE] 1408 (0.036076 secs)
+[Main Analysis] [COMPLETE] 1408 (0.050297 secs)
+[Main Analysis] [COMPLETE] 1408 (0.050297 secs)
 Analysis 1409 (Number of persons with continuous payer plan in each year) -- START
 Analysis 1409 (Number of persons with continuous payer plan in each year) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1409 (0.043700 secs)
-[Main Analysis] [COMPLETE] 1409 (0.043700 secs)
+[Main Analysis] [COMPLETE] 1409 (0.069267 secs)
+[Main Analysis] [COMPLETE] 1409 (0.069267 secs)
 Analysis 1410 (Number of persons with continuous payer plan in each month) -- START
 Analysis 1410 (Number of persons with continuous payer plan in each month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1410 (0.034629 secs)
-[Main Analysis] [COMPLETE] 1410 (0.034629 secs)
+[Main Analysis] [COMPLETE] 1410 (0.069798 secs)
+[Main Analysis] [COMPLETE] 1410 (0.069798 secs)
 Analysis 1411 (Number of persons by payer plan period start month) -- START
 Analysis 1411 (Number of persons by payer plan period start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1411 (0.035355 secs)
-[Main Analysis] [COMPLETE] 1411 (0.035355 secs)
+[Main Analysis] [COMPLETE] 1411 (0.059493 secs)
+[Main Analysis] [COMPLETE] 1411 (0.059493 secs)
 Analysis 1412 (Number of persons by payer plan period end month) -- START
 Analysis 1412 (Number of persons by payer plan period end month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1412 (0.034530 secs)
-[Main Analysis] [COMPLETE] 1412 (0.034530 secs)
+[Main Analysis] [COMPLETE] 1412 (0.056827 secs)
+[Main Analysis] [COMPLETE] 1412 (0.056827 secs)
 Analysis 1413 (Number of persons by number of payer plan periods) -- START
 Analysis 1413 (Number of persons by number of payer plan periods) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1413 (0.029625 secs)
-[Main Analysis] [COMPLETE] 1413 (0.029625 secs)
+[Main Analysis] [COMPLETE] 1413 (0.060333 secs)
+[Main Analysis] [COMPLETE] 1413 (0.060333 secs)
 Analysis 1425 (Number of payer_plan_period records by payer_source_concept_id) -- START
 Analysis 1425 (Number of payer_plan_period records by payer_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1425 (0.027231 secs)
-[Main Analysis] [COMPLETE] 1425 (0.027231 secs)
+[Main Analysis] [COMPLETE] 1425 (0.055356 secs)
+[Main Analysis] [COMPLETE] 1425 (0.055356 secs)
 Analysis 1800 (Number of persons with at least one measurement occurrence, by measurement_concept_id) -- START
 Analysis 1800 (Number of persons with at least one measurement occurrence, by measurement_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1800 (0.029262 secs)
-[Main Analysis] [COMPLETE] 1800 (0.029262 secs)
+[Main Analysis] [COMPLETE] 1800 (0.057254 secs)
+[Main Analysis] [COMPLETE] 1800 (0.057254 secs)
 Analysis 1801 (Number of measurement occurrence records, by measurement_concept_id) -- START
 Analysis 1801 (Number of measurement occurrence records, by measurement_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1801 (0.029224 secs)
-[Main Analysis] [COMPLETE] 1801 (0.029224 secs)
+[Main Analysis] [COMPLETE] 1801 (0.057041 secs)
+[Main Analysis] [COMPLETE] 1801 (0.057041 secs)
 Analysis 1802 (Number of persons by measurement occurrence start month, by measurement_concept_id) -- START
 Analysis 1802 (Number of persons by measurement occurrence start month, by measurement_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1802 (0.040464 secs)
-[Main Analysis] [COMPLETE] 1802 (0.040464 secs)
+[Main Analysis] [COMPLETE] 1802 (0.061987 secs)
+[Main Analysis] [COMPLETE] 1802 (0.061987 secs)
 Analysis 1803 (Number of distinct mesurement occurrence concepts per person) -- START
 Analysis 1803 (Number of distinct mesurement occurrence concepts per person) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1803 (0.044714 secs)
-[Main Analysis] [COMPLETE] 1803 (0.044714 secs)
+[Main Analysis] [COMPLETE] 1803 (0.074171 secs)
+[Main Analysis] [COMPLETE] 1803 (0.074171 secs)
 Analysis 1804 (Number of persons with at least one mesurement  occurrence, by measurement_concept_id by calendar year by gender by age decile) -- START
 Analysis 1804 (Number of persons with at least one mesurement  occurrence, by measurement_concept_id by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1804 (0.035256 secs)
-[Main Analysis] [COMPLETE] 1804 (0.035256 secs)
+[Main Analysis] [COMPLETE] 1804 (0.063071 secs)
+[Main Analysis] [COMPLETE] 1804 (0.063071 secs)
 Analysis 1805 (Number of measurement occurrence records, by measurement_concept_id by measurement_type_concept_id) -- START
 Analysis 1805 (Number of measurement occurrence records, by measurement_concept_id by measurement_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1805 (0.029592 secs)
-[Main Analysis] [COMPLETE] 1805 (0.029592 secs)
+[Main Analysis] [COMPLETE] 1805 (0.052559 secs)
+[Main Analysis] [COMPLETE] 1805 (0.052559 secs)
 Analysis 1806 (Distribution of age by measurement_concept_id) -- START
 Analysis 1806 (Distribution of age by measurement_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==========                                                            |  14%  |                                                                              |====================                                                  |  29%  |                                                                              |==============================                                        |  43%  |                                                                              |========================================                              |  57%  |                                                                              |==================================================                    |  71%  |                                                                              |============================================================          |  86%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1806 (0.049288 secs)
-[Main Analysis] [COMPLETE] 1806 (0.049288 secs)
+[Main Analysis] [COMPLETE] 1806 (0.070199 secs)
+[Main Analysis] [COMPLETE] 1806 (0.070199 secs)
 Analysis 1807 (Number of measurement occurrence records, by measurement_concept_id and unit_concept_id) -- START
 Analysis 1807 (Number of measurement occurrence records, by measurement_concept_id and unit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1807 (0.030643 secs)
-[Main Analysis] [COMPLETE] 1807 (0.030643 secs)
+[Main Analysis] [COMPLETE] 1807 (0.042558 secs)
+[Main Analysis] [COMPLETE] 1807 (0.042558 secs)
 Analysis 1811 (Number of measurement records with a valid value (with a mapped, non-null value_as_number)) -- START
 Analysis 1811 (Number of measurement records with a valid value (with a mapped, non-null value_as_number)) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1811 (0.029988 secs)
-[Main Analysis] [COMPLETE] 1811 (0.029988 secs)
+[Main Analysis] [COMPLETE] 1811 (0.047635 secs)
+[Main Analysis] [COMPLETE] 1811 (0.047635 secs)
 Analysis 1814 (Number of measurement records with no value (numeric, string, or concept)) -- START
 Analysis 1814 (Number of measurement records with no value (numeric, string, or concept)) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1814 (0.029275 secs)
-[Main Analysis] [COMPLETE] 1814 (0.029275 secs)
+[Main Analysis] [COMPLETE] 1814 (0.050329 secs)
+[Main Analysis] [COMPLETE] 1814 (0.050329 secs)
 Analysis 1815 (Distribution of numeric values, by measurement_concept_id and unit_concept_id) -- START
 Analysis 1815 (Distribution of numeric values, by measurement_concept_id and unit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==========                                                            |  14%  |                                                                              |====================                                                  |  29%  |                                                                              |==============================                                        |  43%  |                                                                              |========================================                              |  57%  |                                                                              |==================================================                    |  71%  |                                                                              |============================================================          |  86%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1815 (0.051035 secs)
-[Main Analysis] [COMPLETE] 1815 (0.051035 secs)
+[Main Analysis] [COMPLETE] 1815 (0.065846 secs)
+[Main Analysis] [COMPLETE] 1815 (0.065846 secs)
 Analysis 1816 (Distribution of low range, by measurement_concept_id and unit_concept_id) -- START
 Analysis 1816 (Distribution of low range, by measurement_concept_id and unit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |=======                                                               |  10%  |                                                                              |==============                                                        |  20%  |                                                                              |=====================                                                 |  30%  |                                                                              |============================                                          |  40%  |                                                                              |===================================                                   |  50%  |                                                                              |==========================================                            |  60%  |                                                                              |=================================================                     |  70%  |                                                                              |========================================================              |  80%  |                                                                              |===============================================================       |  90%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1816 (0.057583 secs)
-[Main Analysis] [COMPLETE] 1816 (0.057583 secs)
+[Main Analysis] [COMPLETE] 1816 (0.078599 secs)
+[Main Analysis] [COMPLETE] 1816 (0.078599 secs)
 Analysis 1817 (Distribution of high range, by measurement_concept_id and unit_concept_id) -- START
 Analysis 1817 (Distribution of high range, by measurement_concept_id and unit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |=======                                                               |  10%  |                                                                              |==============                                                        |  20%  |                                                                              |=====================                                                 |  30%  |                                                                              |============================                                          |  40%  |                                                                              |===================================                                   |  50%  |                                                                              |==========================================                            |  60%  |                                                                              |=================================================                     |  70%  |                                                                              |========================================================              |  80%  |                                                                              |===============================================================       |  90%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1817 (0.060395 secs)
-[Main Analysis] [COMPLETE] 1817 (0.060395 secs)
+[Main Analysis] [COMPLETE] 1817 (0.083663 secs)
+[Main Analysis] [COMPLETE] 1817 (0.083663 secs)
 Analysis 1818 (Number of measurement records below/within/above normal range, by measurement_concept_id and unit_concept_id) -- START
 Analysis 1818 (Number of measurement records below/within/above normal range, by measurement_concept_id and unit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==================                                                    |  25%  |                                                                              |===================================                                   |  50%  |                                                                              |====================================================                  |  75%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1818 (0.037413 secs)
-[Main Analysis] [COMPLETE] 1818 (0.037413 secs)
+[Main Analysis] [COMPLETE] 1818 (0.061092 secs)
+[Main Analysis] [COMPLETE] 1818 (0.061092 secs)
 Analysis 1819 (Number of measurement records, by measurement_concept_id, with a valid value (with a mapped, non-null value_as_number)) -- START
 Analysis 1819 (Number of measurement records, by measurement_concept_id, with a valid value (with a mapped, non-null value_as_number)) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1819 (0.027806 secs)
-[Main Analysis] [COMPLETE] 1819 (0.027806 secs)
+[Main Analysis] [COMPLETE] 1819 (0.052884 secs)
+[Main Analysis] [COMPLETE] 1819 (0.052884 secs)
 Analysis 1820 (Number of measurement records  by measurement start month) -- START
 Analysis 1820 (Number of measurement records  by measurement start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1820 (0.030747 secs)
-[Main Analysis] [COMPLETE] 1820 (0.030747 secs)
+[Main Analysis] [COMPLETE] 1820 (0.059667 secs)
+[Main Analysis] [COMPLETE] 1820 (0.059667 secs)
 Analysis 1821 (Number of measurement records with no numeric value) -- START
 Analysis 1821 (Number of measurement records with no numeric value) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1821 (0.027795 secs)
-[Main Analysis] [COMPLETE] 1821 (0.027795 secs)
+[Main Analysis] [COMPLETE] 1821 (0.054500 secs)
+[Main Analysis] [COMPLETE] 1821 (0.054500 secs)
 Analysis 1822 (Number of measurement records, by measurement_concept_id and value_as_concept_id) -- START
 Analysis 1822 (Number of measurement records, by measurement_concept_id and value_as_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1822 (0.036921 secs)
-[Main Analysis] [COMPLETE] 1822 (0.036921 secs)
+[Main Analysis] [COMPLETE] 1822 (0.064664 secs)
+[Main Analysis] [COMPLETE] 1822 (0.064664 secs)
 Analysis 1823 (Number of measurement records, by measurement_concept_id and operator_concept_id) -- START
 Analysis 1823 (Number of measurement records, by measurement_concept_id and operator_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1823 (0.030507 secs)
-[Main Analysis] [COMPLETE] 1823 (0.030507 secs)
+[Main Analysis] [COMPLETE] 1823 (0.061448 secs)
+[Main Analysis] [COMPLETE] 1823 (0.061448 secs)
 Analysis 1825 (Number of measurement records by measurement_source_concept_id) -- START
 Analysis 1825 (Number of measurement records by measurement_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1825 (0.034788 secs)
-[Main Analysis] [COMPLETE] 1825 (0.034788 secs)
+[Main Analysis] [COMPLETE] 1825 (0.063163 secs)
+[Main Analysis] [COMPLETE] 1825 (0.063163 secs)
 Analysis 1826 (Number of measurement records by value_as_concept_id) -- START
 Analysis 1826 (Number of measurement records by value_as_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1826 (0.033208 secs)
-[Main Analysis] [COMPLETE] 1826 (0.033208 secs)
+[Main Analysis] [COMPLETE] 1826 (0.054689 secs)
+[Main Analysis] [COMPLETE] 1826 (0.054689 secs)
 Analysis 1827 (Number of measurement records by unit_concept_id) -- START
 Analysis 1827 (Number of measurement records by unit_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1827 (0.032358 secs)
-[Main Analysis] [COMPLETE] 1827 (0.032358 secs)
+[Main Analysis] [COMPLETE] 1827 (0.061026 secs)
+[Main Analysis] [COMPLETE] 1827 (0.061026 secs)
 Analysis 1891 (Percentage of total persons that have at least x measurements) -- START
 Analysis 1891 (Percentage of total persons that have at least x measurements) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1891 (0.032900 secs)
-[Main Analysis] [COMPLETE] 1891 (0.032900 secs)
+[Main Analysis] [COMPLETE] 1891 (0.054871 secs)
+[Main Analysis] [COMPLETE] 1891 (0.054871 secs)
 Analysis 1900 (Source values mapped to concept_id 0 by table, by column, by source_value) -- START
 Analysis 1900 (Source values mapped to concept_id 0 by table, by column, by source_value) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 1900 (0.658974 secs)
-[Main Analysis] [COMPLETE] 1900 (0.658974 secs)
+[Main Analysis] [COMPLETE] 1900 (0.699947 secs)
+[Main Analysis] [COMPLETE] 1900 (0.699947 secs)
 Analysis 2000 (Number of patients with at least 1 Dx and 1 Rx) -- START
 Analysis 2000 (Number of patients with at least 1 Dx and 1 Rx) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2000 (0.089935 secs)
-[Main Analysis] [COMPLETE] 2000 (0.089935 secs)
+[Main Analysis] [COMPLETE] 2000 (0.102917 secs)
+[Main Analysis] [COMPLETE] 2000 (0.102917 secs)
 Analysis 2001 (Number of patients with at least 1 Dx and 1 Proc) -- START
 Analysis 2001 (Number of patients with at least 1 Dx and 1 Proc) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2001 (0.050957 secs)
-[Main Analysis] [COMPLETE] 2001 (0.050957 secs)
+[Main Analysis] [COMPLETE] 2001 (0.056376 secs)
+[Main Analysis] [COMPLETE] 2001 (0.056376 secs)
 Analysis 2002 (Number of patients with at least 1 Meas, 1 Dx and 1 Rx) -- START
 Analysis 2002 (Number of patients with at least 1 Meas, 1 Dx and 1 Rx) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2002 (0.078427 secs)
-[Main Analysis] [COMPLETE] 2002 (0.078427 secs)
+[Main Analysis] [COMPLETE] 2002 (0.089216 secs)
+[Main Analysis] [COMPLETE] 2002 (0.089216 secs)
 Analysis 2003 (Number of patients with at least 1 Visit) -- START
 Analysis 2003 (Number of patients with at least 1 Visit) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2003 (0.034975 secs)
-[Main Analysis] [COMPLETE] 2003 (0.034975 secs)
+[Main Analysis] [COMPLETE] 2003 (0.055724 secs)
+[Main Analysis] [COMPLETE] 2003 (0.055724 secs)
 Analysis 2004 (Number of distinct patients that overlap between specific domains) -- START
 Analysis 2004 (Number of distinct patients that overlap between specific domains) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |=====                                                                 |   7%  |                                                                              |=========                                                             |  13%  |                                                                              |==============                                                        |  20%  |                                                                              |===================                                                   |  27%  |                                                                              |=======================                                               |  33%  |                                                                              |============================                                          |  40%  |                                                                              |=================================                                     |  47%  |                                                                              |=====================================                                 |  53%  |                                                                              |==========================================                            |  60%  |                                                                              |===============================================                       |  67%  |                                                                              |===================================================                   |  73%  |                                                                              |========================================================              |  80%  |                                                                              |=============================================================         |  87%  |                                                                              |=================================================================     |  93%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2004 (2.309159 secs)
-[Main Analysis] [COMPLETE] 2004 (2.309159 secs)
+[Main Analysis] [COMPLETE] 2004 (2.486251 secs)
+[Main Analysis] [COMPLETE] 2004 (2.486251 secs)
 Analysis 2100 (Number of persons with at least one device exposure, by device_concept_id) -- START
 Analysis 2100 (Number of persons with at least one device exposure, by device_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2100 (0.030543 secs)
-[Main Analysis] [COMPLETE] 2100 (0.030543 secs)
+[Main Analysis] [COMPLETE] 2100 (0.066432 secs)
+[Main Analysis] [COMPLETE] 2100 (0.066432 secs)
 Analysis 2101 (Number of device exposure records, by device_concept_id) -- START
 Analysis 2101 (Number of device exposure records, by device_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2101 (0.027932 secs)
-[Main Analysis] [COMPLETE] 2101 (0.027932 secs)
+[Main Analysis] [COMPLETE] 2101 (0.063457 secs)
+[Main Analysis] [COMPLETE] 2101 (0.063457 secs)
 Analysis 2102 (Number of persons by device records  start month, by device_concept_id) -- START
 Analysis 2102 (Number of persons by device records  start month, by device_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2102 (0.033322 secs)
-[Main Analysis] [COMPLETE] 2102 (0.033322 secs)
+[Main Analysis] [COMPLETE] 2102 (0.060382 secs)
+[Main Analysis] [COMPLETE] 2102 (0.060382 secs)
 Analysis 2104 (Number of persons with at least one device exposure, by device_concept_id by calendar year by gender by age decile) -- START
 Analysis 2104 (Number of persons with at least one device exposure, by device_concept_id by calendar year by gender by age decile) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2104 (0.031130 secs)
-[Main Analysis] [COMPLETE] 2104 (0.031130 secs)
+[Main Analysis] [COMPLETE] 2104 (0.065681 secs)
+[Main Analysis] [COMPLETE] 2104 (0.065681 secs)
 Analysis 2105 (Number of device exposure records, by device_concept_id by device_type_concept_id) -- START
 Analysis 2105 (Number of device exposure records, by device_concept_id by device_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2105 (0.039744 secs)
-[Main Analysis] [COMPLETE] 2105 (0.039744 secs)
+[Main Analysis] [COMPLETE] 2105 (0.051263 secs)
+[Main Analysis] [COMPLETE] 2105 (0.051263 secs)
 Analysis 2106 (Distribution of age by device_concept_id) -- START
 Analysis 2106 (Distribution of age by device_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |==========                                                            |  14%  |                                                                              |====================                                                  |  29%  |                                                                              |==============================                                        |  43%  |                                                                              |========================================                              |  57%  |                                                                              |==================================================                    |  71%  |                                                                              |============================================================          |  86%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2106 (0.055217 secs)
-[Main Analysis] [COMPLETE] 2106 (0.055217 secs)
+[Main Analysis] [COMPLETE] 2106 (0.064200 secs)
+[Main Analysis] [COMPLETE] 2106 (0.064200 secs)
 Analysis 2120 (Number of device_exposure records by device_exposure start month) -- START
 Analysis 2120 (Number of device_exposure records by device_exposure start month) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2120 (0.033746 secs)
-[Main Analysis] [COMPLETE] 2120 (0.033746 secs)
+[Main Analysis] [COMPLETE] 2120 (0.049026 secs)
+[Main Analysis] [COMPLETE] 2120 (0.049026 secs)
 Analysis 2125 (Number of device_exposure records by device_source_concept_id) -- START
 Analysis 2125 (Number of device_exposure records by device_source_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2125 (0.031998 secs)
-[Main Analysis] [COMPLETE] 2125 (0.031998 secs)
+[Main Analysis] [COMPLETE] 2125 (0.047369 secs)
+[Main Analysis] [COMPLETE] 2125 (0.047369 secs)
 Analysis 2191 (Percentage of total persons that have at least x device exposures) -- START
 Analysis 2191 (Percentage of total persons that have at least x device exposures) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2191 (0.031034 secs)
-[Main Analysis] [COMPLETE] 2191 (0.031034 secs)
+[Main Analysis] [COMPLETE] 2191 (0.050094 secs)
+[Main Analysis] [COMPLETE] 2191 (0.050094 secs)
 Analysis 2200 (Number of persons with at least one note by  note_type_concept_id) -- START
 Analysis 2200 (Number of persons with at least one note by  note_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2200 (0.029235 secs)
-[Main Analysis] [COMPLETE] 2200 (0.029235 secs)
+[Main Analysis] [COMPLETE] 2200 (0.051177 secs)
+[Main Analysis] [COMPLETE] 2200 (0.051177 secs)
 Analysis 2201 (Number of note records, by note_type_concept_id) -- START
 Analysis 2201 (Number of note records, by note_type_concept_id) -- START
   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-[Main Analysis] [COMPLETE] 2201 (0.033611 secs)
-[Main Analysis] [COMPLETE] 2201 (0.033611 secs)
+[Main Analysis] [COMPLETE] 2201 (0.066728 secs)
+[Main Analysis] [COMPLETE] 2201 (0.066728 secs)
 Merging scratch Achilles tables
 Merging scratch Achilles tables
   |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
@@ -1199,5 +1199,5 @@ Dropping scratch Achilles tables from schema #
 Temporary Achilles tables removed from schema #
 Temporary Achilles tables removed from schema #
   |                                                                              |                                                                      |   0%  |                                                                              |                                                                      |   0%  |                                                                              |=========                                                             |  12%  |                                                                              |==================                                                    |  25%  |                                                                              |==========================                                            |  38%  |                                                                              |===================================                                   |  50%  |                                                                              |============================================                          |  62%  |                                                                              |====================================================                  |  75%  |                                                                              |=============================================================         |  88%  |                                                                              |======================================================================| 100%
-[Total Runtime] 1.010430 mins
-[Total Runtime] 1.010430 mins
+[Total Runtime] 1.139282 mins
+[Total Runtime] 1.139282 mins

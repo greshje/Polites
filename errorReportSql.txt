@@ -8,7 +8,7 @@ SQL:
 drop index polites_omop_ach_res_sql_server.dbo.idx_ar_aid
 
 R version:
-R version 4.2.3 (2023-03-15 ucrt)
+R version 4.4.1 (2024-06-14 ucrt)
 
 Platform:
 x86_64-w64-mingw32
@@ -24,5 +24,5 @@ Attached base packages:
 
 Other attached packages:
 - Achilles (1.7.2)
-- DatabaseConnector (6.3.2)
+- DatabaseConnector (6.4.0)
 - SqlRender (1.18.0)

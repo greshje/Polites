@@ -140,7 +140,6 @@ public class ExecutePolitesGoActionForPostgres {
 				log.info("Done importing.");
 			}
 			if (sel.contains("exportDataTables")) {
-				// TODO: IMPLEMENT THIS
 				log("EXPORTING DATA TABLES");
 				use(conn);
 				ExportTablesForPostgres.exportDataTables(conn);
@@ -150,14 +149,13 @@ public class ExecutePolitesGoActionForPostgres {
 			if (sel.contains("truncateAll")) {
 				log("TRUNCATING ALL TABLES");
 				use(conn);
-				new TruncateTablesForPostgres().truncateAllTables();
+				new TruncateTablesForPostgres().truncateAllTables(userConn);
 				log.info("Done truncating.");
 			}
 			if (sel.contains("importAll")) {
-				// TODO: IMPLEMENT THIS
-				log("IMPORTING ALL TABLES");
-				//				use(conn);
-				//				UploadCsvForSqlServer.uploadAll();
+				log("IMPORTING DATA TABLES");
+				use(userConn);
+				UploadCsvFilesFromZipForPostgres.uploadAll(userConn);
 				log.info("Done importing.");
 			}
 			if (sel.contains("exportAll")) {

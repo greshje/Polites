@@ -141,14 +141,14 @@ public class ExecutePolitesGoActionForPostgres {
 			}
 			if (sel.contains("exportDataTables")) {
 				log("EXPORTING DATA TABLES");
-				use(conn);
-				ExportTablesForPostgres.exportDataTables(conn);
+				use(userConn);
+				ExportTablesForPostgres.exportDataTables(userConn);
 				log.info("Done exporting.");
 			}
 			// truncate, import, and export all tables
 			if (sel.contains("truncateAll")) {
 				log("TRUNCATING ALL TABLES");
-				use(conn);
+				use(userConn);
 				new TruncateTablesForPostgres().truncateAllTables(userConn);
 				log.info("Done truncating.");
 			}
@@ -161,51 +161,51 @@ public class ExecutePolitesGoActionForPostgres {
 			if (sel.contains("exportAll")) {
 				// TODO: IMPLEMENT THIS
 				log("EXPORTING ALL TABLES");
-				//				use(conn);
-				//				ExportTables.exportAllCdmTables();
+				use(userConn);
+				ExportTablesForPostgres.exportAllCdmTables(userConn);
 				log.info("Done exporting.");
 			}
 			// load synthea csv files
 			if (sel.contains("loadSyntheaCsv")) {
 				log("UPLOADINS SYNTHEA CSV FILES");
-				//				use(conn);
-				//				UploadSyntheaCsvFiles.exec(conn);
+				//				use(userConn);
+				//				UploadSyntheaCsvFiles.exec(userConn);
 				log.info("Done with Synthea Upload.");
 			}
 			// sequences, indexes, and constraints
 			if (sel.contains("createSequencesForPrimaryKeys")) {
 				// TODO: IMPLEMENT THIS
 				log("CREATING SEQUENCES");
-				//				use(conn);
-				//				CreateSequencesForPrimaryKeys.exec(conn);
+				//				use(userConn);
+				//				CreateSequencesForPrimaryKeys.exec(userConn);
 				log.info("Done with Create Sequences.");
 			}
 			if (sel.contains("createIndexes")) {
 				// TODO: IMPLEMENT THIS
 				log("CREATING INDEXEX");
-				//				use(conn);
-				//				CreateDatabaseIndexes.exec(conn);
+				//				use(userConn);
+				//				CreateDatabaseIndexes.exec(userConn);
 				log.info("Done with Create Indexes.");
 			}
 			if (sel.contains("addConstraints")) {
 				// TODO: IMPLEMENT THIS
 				log("ADDING CONSTRAINTS");
-				//				use(conn);
+				//				use(userConn);
 				//				AddConstraints.exec();
 				log.info("Done Adding Constraints.");
 			}
 			if (sel.contains("disableConstraints")) {
 				// TODO: IMPLEMENT THIS
 				log("DISABLING CONSTRAINTS");
-				//				use(conn);
-				//				DisableConstraints.exec(conn);
+				//				use(userConn);
+				//				DisableConstraints.exec(userConn);
 				log.info("Done with Disable Constraints.");
 			}
 			if (sel.contains("enableConstraints")) {
 				// TODO: IMPLEMENT THIS
 				log("ENABLING CONSTRAINTS");
-				//				use(conn);
-				//				EnableConstraints.exec(conn);
+				//				use(userConn);
+				//				EnableConstraints.exec(userConn);
 				log.info("Done with Enable Constraints.");
 			}
 			// run achilles
@@ -224,7 +224,7 @@ public class ExecutePolitesGoActionForPostgres {
 			if (sel.contains("createAchillesDatabase")) {
 				// TODO: IMPLEMENT THIS
 				log("CREATING ACHILLES DATABASE");
-				//				use(conn);
+				//				use(userConn);
 				//				CreateAchillesDatabases.exec();
 				//				CreateAchillesAnalysisTable.exec();
 				log.info("Done creating Achilles database.");
@@ -232,7 +232,7 @@ public class ExecutePolitesGoActionForPostgres {
 			if (sel.contains("runAchilles")) {
 				// TODO: IMPLEMENT THIS
 				log("RUNNING ACHILLES");
-				//				use(conn);
+				//				use(userConn);
 				//				RunAchilles.exec();
 				log.info("Done running Achilles.");
 			}

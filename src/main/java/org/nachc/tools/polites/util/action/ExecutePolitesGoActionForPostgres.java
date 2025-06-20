@@ -9,6 +9,11 @@ import org.nachc.tools.fhirtoomop.tools.build.impl.fileupload.UploadCsvFilesFrom
 import org.nachc.tools.fhirtoomop.tools.build.impl.fileupload.UploadCsvFilesFromZipForSqlServer;
 import org.nachc.tools.fhirtoomop.tools.build.postgres.BurnEverythingToTheGroundPostgres;
 import org.nachc.tools.fhirtoomop.tools.build.postgres.build.A01_CreateAtlasDatabaseUsers;
+import org.nachc.tools.fhirtoomop.tools.build.postgres.build.A05_CreateAchillesDatabases;
+import org.nachc.tools.fhirtoomop.tools.build.postgres.build.A06_CreateAchillesTables;
+import org.nachc.tools.fhirtoomop.tools.build.postgres.build.A08_CreateAtlasSourceRecordsInWebApi;
+import org.nachc.tools.fhirtoomop.tools.build.postgres.build.ACH00_InstallAchilles;
+import org.nachc.tools.fhirtoomop.tools.build.postgres.build.ACH01_RunAchilles;
 import org.nachc.tools.fhirtoomop.tools.build.postgres.build.CDM01a_CreateCdmDatabase;
 import org.nachc.tools.fhirtoomop.tools.build.postgres.build.CDM01b_CreateCdmSchema;
 import org.nachc.tools.fhirtoomop.tools.build.postgres.build.CDM02a_CreateCdmDatabaseTables;
@@ -197,6 +202,7 @@ public class ExecutePolitesGoActionForPostgres {
 			if (sel.contains("disableConstraints")) {
 				// TODO: IMPLEMENT THIS
 				log("DISABLING CONSTRAINTS");
+				log("* * * NOT IMPLEMENTED YET * * *");
 				// use(userConn);
 				// DisableConstraints.exec(userConn);
 				log.info("Done with Disable Constraints.");
@@ -204,6 +210,7 @@ public class ExecutePolitesGoActionForPostgres {
 			if (sel.contains("enableConstraints")) {
 				// TODO: IMPLEMENT THIS
 				log("ENABLING CONSTRAINTS");
+				log("* * * NOT IMPLEMENTED YET * * *");
 				// use(userConn);
 				// EnableConstraints.exec(userConn);
 				log.info("Done with Enable Constraints.");
@@ -216,24 +223,24 @@ public class ExecutePolitesGoActionForPostgres {
 				log.info("Done deleting webapi records.");
 			}
 			if (sel.contains("addWebApiRecords")) {
-				// TODO: IMPLEMENT THIS
 				log("ADDING WEBAPI RECORDS");
-				// CreateWebApiRecords.exec();
+				use(userConn);
+				A08_CreateAtlasSourceRecordsInWebApi.exec(userConn);
 				log.info("Done adding webapi records.");
 			}
 			if (sel.contains("createAchillesDatabase")) {
-				// TODO: IMPLEMENT THIS
 				log("CREATING ACHILLES DATABASE");
-				// use(userConn);
-				// CreateAchillesDatabases.exec();
-				// CreateAchillesAnalysisTable.exec();
+				use(userConn);
+				A05_CreateAchillesDatabases.exec(userConn);
+				A06_CreateAchillesTables.exec(userConn);
+				// note this method also installs the Achilles R packages
+				ACH00_InstallAchilles.exec();
 				log.info("Done creating Achilles database.");
 			}
 			if (sel.contains("runAchilles")) {
-				// TODO: IMPLEMENT THIS
 				log("RUNNING ACHILLES");
-				// use(userConn);
-				// RunAchilles.exec();
+				use(userConn);
+				ACH01_RunAchilles.exec();
 				log.info("Done running Achilles.");
 			}
 		} catch (Exception exp) {

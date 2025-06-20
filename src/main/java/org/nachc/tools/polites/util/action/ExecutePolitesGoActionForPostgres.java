@@ -27,6 +27,7 @@ import org.nachc.tools.fhirtoomop.tools.build.postgres.build.IDX02_CreateCdmInde
 import org.nachc.tools.fhirtoomop.tools.build.postgres.build.IDX03_CreateCdmConstraints;
 import org.nachc.tools.fhirtoomop.tools.build.postgres.build.VOC99_LoadTerminology;
 import org.nachc.tools.fhirtoomop.tools.download.terminology.DownloadDefaultTerminology;
+import org.nachc.tools.fhirtoomop.util.db.connection.postgres.PostgresDatabaseConnectionFactory;
 import org.nachc.tools.fhirtoomop.util.db.truncate.impl.TruncateTablesForPostgres;
 import org.nachc.tools.fhirtoomop.util.params.AppParams;
 import org.nachc.tools.fhirtoomop.util.postgres.exporttables.ExportTablesForPostgres;
@@ -190,13 +191,13 @@ public class ExecutePolitesGoActionForPostgres {
 			if (sel.contains("createIndexes")) {
 				log("CREATING INDEXEX");
 				use(userConn);
-				IDX02_CreateCdmIndexes.exec();
+				IDX02_CreateCdmIndexes.exec(userConn);
 				log.info("Done with Create Indexes.");
 			}
 			if (sel.contains("addConstraints")) {
 				log("ADDING CONSTRAINTS");
 				use(userConn);
-				IDX03_CreateCdmConstraints.exec();
+				IDX03_CreateCdmConstraints.exec(userConn);
 				log.info("Done Adding Constraints.");
 			}
 			if (sel.contains("disableConstraints")) {
@@ -220,13 +221,14 @@ public class ExecutePolitesGoActionForPostgres {
 				// TODO: IMPLEMENT THIS
 				log("DELETING WEBAPI RECORDS");
 				use(userConn);
-				DeleteWebApiRecords.exec(userConn);
+				// DeleteWebApiRecords.exec(userConn);
 				log.info("Done deleting webapi records.");
 			}
 			if (sel.contains("addWebApiRecords")) {
 				log("ADDING WEBAPI RECORDS");
-				use(userConn);
-				A08_CreateAtlasSourceRecordsInWebApi.exec(userConn);
+				// use(userConn);
+				Connection pgConn = PostgresDatabaseConnectionFactory.getWebApiConnection();
+				A08_CreateAtlasSourceRecordsInWebApi.exec(pgConn);
 				log.info("Done adding webapi records.");
 			}
 			if (sel.contains("createAchillesDatabase")) {

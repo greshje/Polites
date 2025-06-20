@@ -31,6 +31,7 @@ import org.nachc.tools.fhirtoomop.util.db.truncate.impl.TruncateTablesForPostgre
 import org.nachc.tools.fhirtoomop.util.params.AppParams;
 import org.nachc.tools.fhirtoomop.util.postgres.exporttables.ExportTablesForPostgres;
 import org.nachc.tools.fhirtoomop.util.sqlserver.ExportTables;
+import org.nachc.tools.fhirtoomop.util.webapi.DeleteWebApiRecords;
 import org.nachc.tools.polites.util.connection.PolitesPostgresConnectionFactory;
 import org.yaorma.database.Database;
 
@@ -167,7 +168,6 @@ public class ExecutePolitesGoActionForPostgres {
 				log.info("Done importing.");
 			}
 			if (sel.contains("exportAll")) {
-				// TODO: IMPLEMENT THIS
 				log("EXPORTING ALL TABLES");
 				use(userConn);
 				ExportTablesForPostgres.exportAllCdmTables(userConn);
@@ -219,7 +219,8 @@ public class ExecutePolitesGoActionForPostgres {
 			if (sel.contains("deleteWebApiRecords")) {
 				// TODO: IMPLEMENT THIS
 				log("DELETING WEBAPI RECORDS");
-				// DeleteWebApiRecords.exec();
+				use(userConn);
+				DeleteWebApiRecords.exec(userConn);
 				log.info("Done deleting webapi records.");
 			}
 			if (sel.contains("addWebApiRecords")) {

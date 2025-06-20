@@ -17,6 +17,9 @@ import org.nachc.tools.fhirtoomop.tools.build.postgres.build.FHIR01_CreateMappin
 import org.nachc.tools.fhirtoomop.tools.build.postgres.build.FHIR01a_MoveRaceEthFiles;
 import org.nachc.tools.fhirtoomop.tools.build.postgres.build.FHIR02_LoadFhirRaceEthMappings;
 import org.nachc.tools.fhirtoomop.tools.build.postgres.build.FHIR03_CreateFhirResourcesTables;
+import org.nachc.tools.fhirtoomop.tools.build.postgres.build.FHIR05_CreateSequencesForPrimaryKeys;
+import org.nachc.tools.fhirtoomop.tools.build.postgres.build.IDX02_CreateCdmIndexes;
+import org.nachc.tools.fhirtoomop.tools.build.postgres.build.IDX03_CreateCdmConstraints;
 import org.nachc.tools.fhirtoomop.tools.build.postgres.build.VOC99_LoadTerminology;
 import org.nachc.tools.fhirtoomop.tools.download.terminology.DownloadDefaultTerminology;
 import org.nachc.tools.fhirtoomop.util.db.truncate.impl.TruncateTablesForPostgres;
@@ -168,72 +171,69 @@ public class ExecutePolitesGoActionForPostgres {
 			// load synthea csv files
 			if (sel.contains("loadSyntheaCsv")) {
 				log("UPLOADINS SYNTHEA CSV FILES");
-				//				use(userConn);
-				//				UploadSyntheaCsvFiles.exec(userConn);
+				// use(userConn);
+				// UploadSyntheaCsvFiles.exec(userConn);
 				log.info("Done with Synthea Upload.");
 			}
 			// sequences, indexes, and constraints
 			if (sel.contains("createSequencesForPrimaryKeys")) {
-				// TODO: IMPLEMENT THIS
 				log("CREATING SEQUENCES");
-				//				use(userConn);
-				//				CreateSequencesForPrimaryKeys.exec(userConn);
+				use(userConn);
+				FHIR05_CreateSequencesForPrimaryKeys.exec(userConn);
 				log.info("Done with Create Sequences.");
 			}
 			if (sel.contains("createIndexes")) {
-				// TODO: IMPLEMENT THIS
 				log("CREATING INDEXEX");
-				//				use(userConn);
-				//				CreateDatabaseIndexes.exec(userConn);
+				use(userConn);
+				IDX02_CreateCdmIndexes.exec();
 				log.info("Done with Create Indexes.");
 			}
 			if (sel.contains("addConstraints")) {
-				// TODO: IMPLEMENT THIS
 				log("ADDING CONSTRAINTS");
-				//				use(userConn);
-				//				AddConstraints.exec();
+				use(userConn);
+				IDX03_CreateCdmConstraints.exec();
 				log.info("Done Adding Constraints.");
 			}
 			if (sel.contains("disableConstraints")) {
 				// TODO: IMPLEMENT THIS
 				log("DISABLING CONSTRAINTS");
-				//				use(userConn);
-				//				DisableConstraints.exec(userConn);
+				// use(userConn);
+				// DisableConstraints.exec(userConn);
 				log.info("Done with Disable Constraints.");
 			}
 			if (sel.contains("enableConstraints")) {
 				// TODO: IMPLEMENT THIS
 				log("ENABLING CONSTRAINTS");
-				//				use(userConn);
-				//				EnableConstraints.exec(userConn);
+				// use(userConn);
+				// EnableConstraints.exec(userConn);
 				log.info("Done with Enable Constraints.");
 			}
 			// run achilles
 			if (sel.contains("deleteWebApiRecords")) {
 				// TODO: IMPLEMENT THIS
 				log("DELETING WEBAPI RECORDS");
-				//				DeleteWebApiRecords.exec();
+				// DeleteWebApiRecords.exec();
 				log.info("Done deleting webapi records.");
 			}
 			if (sel.contains("addWebApiRecords")) {
 				// TODO: IMPLEMENT THIS
 				log("ADDING WEBAPI RECORDS");
-				//				CreateWebApiRecords.exec();
+				// CreateWebApiRecords.exec();
 				log.info("Done adding webapi records.");
 			}
 			if (sel.contains("createAchillesDatabase")) {
 				// TODO: IMPLEMENT THIS
 				log("CREATING ACHILLES DATABASE");
-				//				use(userConn);
-				//				CreateAchillesDatabases.exec();
-				//				CreateAchillesAnalysisTable.exec();
+				// use(userConn);
+				// CreateAchillesDatabases.exec();
+				// CreateAchillesAnalysisTable.exec();
 				log.info("Done creating Achilles database.");
 			}
 			if (sel.contains("runAchilles")) {
 				// TODO: IMPLEMENT THIS
 				log("RUNNING ACHILLES");
-				//				use(userConn);
-				//				RunAchilles.exec();
+				// use(userConn);
+				// RunAchilles.exec();
 				log.info("Done running Achilles.");
 			}
 		} catch (Exception exp) {

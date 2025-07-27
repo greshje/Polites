@@ -219,7 +219,6 @@ public class ExecutePolitesGoActionForPostgres {
 			}
 			// run achilles
 			if (sel.contains("deleteWebApiRecords")) {
-				// TODO: IMPLEMENT THIS
 				log("DELETING WEBAPI RECORDS");
 				use(userConn);
 				DeleteWebApiRecords.exec();
@@ -227,7 +226,6 @@ public class ExecutePolitesGoActionForPostgres {
 			}
 			if (sel.contains("addWebApiRecords")) {
 				log("ADDING WEBAPI RECORDS");
-				// use(userConn);
 				Connection pgConn = PostgresDatabaseConnectionFactory.getWebApiConnection();
 				A08_CreateAtlasSourceRecordsInWebApi.exec(pgConn);
 				log.info("Done adding webapi records.");

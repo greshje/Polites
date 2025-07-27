@@ -26,3 +26,5 @@
 2025-05-29 08:19:37	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.217 secs
 2025-06-03 12:18:35	[Main thread]	INFO	DatabaseConnector	connectSqlServer	Connecting using SQL Server driver
 2025-06-03 12:18:35	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.234 secs
+2025-07-27 11:01:17	[Main thread]	INFO	DatabaseConnector	connectPostgreSql	Connecting using PostgreSQL driver
+2025-07-27 11:01:18	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.318 secs

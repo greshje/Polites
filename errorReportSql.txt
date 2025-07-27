@@ -1,11 +1,11 @@
 DBMS:
-sql server
+postgresql
 
 Error:
-com.microsoft.sqlserver.jdbc.SQLServerException: Cannot drop the index 'polites_omop_ach_res_sql_server.dbo.idx_ar_aid', because it does not exist or you do not have permission.
+org.postgresql.util.PSQLException: ERROR: index "idx_ar_aid" does not exist
 
 SQL:
-drop index polites_omop_ach_res_sql_server.dbo.idx_ar_aid
+drop index polites_omop_ach_res.idx_ar_aid
 
 R version:
 R version 4.4.1 (2024-06-14 ucrt)
@@ -25,4 +25,4 @@ Attached base packages:
 Other attached packages:
 - Achilles (1.7.2)
 - DatabaseConnector (6.4.0)
-- SqlRender (1.18.0)
+- SqlRender (1.19.2)

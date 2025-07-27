@@ -32,6 +32,7 @@ import org.nachc.tools.fhirtoomop.util.db.truncate.impl.TruncateTablesForPostgre
 import org.nachc.tools.fhirtoomop.util.params.AppParams;
 import org.nachc.tools.fhirtoomop.util.postgres.exporttables.ExportTablesForPostgres;
 import org.nachc.tools.fhirtoomop.util.sqlserver.ExportTables;
+import org.nachc.tools.fhirtoomop.util.webapi.CreateWebApiRecords;
 import org.nachc.tools.fhirtoomop.util.webapi.DeleteWebApiRecords;
 import org.nachc.tools.polites.util.connection.PolitesPostgresConnectionFactory;
 import org.yaorma.database.Database;
@@ -221,7 +222,7 @@ public class ExecutePolitesGoActionForPostgres {
 				// TODO: IMPLEMENT THIS
 				log("DELETING WEBAPI RECORDS");
 				use(userConn);
-				// DeleteWebApiRecords.exec(userConn);
+				DeleteWebApiRecords.exec();
 				log.info("Done deleting webapi records.");
 			}
 			if (sel.contains("addWebApiRecords")) {

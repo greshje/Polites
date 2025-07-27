@@ -24,6 +24,7 @@ import org.nachc.tools.fhirtoomop.tools.build.impl.LoadMappingTables;
 import org.nachc.tools.fhirtoomop.tools.build.impl.LoadTerminology;
 import org.nachc.tools.fhirtoomop.tools.build.impl.MoveRaceEthFiles;
 import org.nachc.tools.fhirtoomop.tools.build.impl.fileupload.UploadCsvFilesFromZipForSqlServer;
+import org.nachc.tools.fhirtoomop.tools.build.postgres.build.ACH00_InstallAchilles;
 import org.nachc.tools.fhirtoomop.tools.download.terminology.DownloadDefaultTerminology;
 import org.nachc.tools.fhirtoomop.tools.syntheacsv.UploadSyntheaCsvFiles;
 import org.nachc.tools.fhirtoomop.util.db.truncate.impl.TruncateTablesForSqlServer;
@@ -212,6 +213,8 @@ public class ExecutePolitesGoActionForSqlServer {
 				use(conn);
 				CreateAchillesDatabases.exec();
 				CreateAchillesAnalysisTable.exec();
+				// note this method also installs the Achilles R packages
+				ACH00_InstallAchilles.exec();
 				log.info("Done creating Achilles database.");
 			}
 			if (sel.contains("runAchilles")) {

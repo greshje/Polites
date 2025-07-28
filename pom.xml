@@ -128,6 +128,15 @@
 			<version>12.6.2.jre11</version>
 		</dependency>
 
+		<!-- Databricks JDBC Driver -->
+		<dependency>
+			<groupId>com.databricks</groupId>
+			<artifactId>jdbc</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/driver/databricks/DatabricksJDBC42.jar</systemPath>
+		</dependency>
+
 	</dependencies>
 
 	<!-- 

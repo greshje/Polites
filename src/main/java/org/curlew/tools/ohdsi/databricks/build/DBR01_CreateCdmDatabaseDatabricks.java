@@ -11,15 +11,13 @@ import org.yaorma.database.Database;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * 
- * The only thing this class does is create the databricks schema to hold the CDM. 
- * If the schema already exists it is dropped.  
- * There is nothing version specific about this class as all it does is create an empty schema.  
- *
+ * The only thing this class does is create the Databricks schema to hold the CDM. 
+ *   - If the schema already exists it is dropped.  
+ *   - There is nothing version specific about this class as all it does is create an empty schema.  
  */
 
 @Slf4j
-public class DB001_CreateCdmDatabaseDatabricks {
+public class DBR01_CreateCdmDatabaseDatabricks {
 
 	public static void main(String[] args) {
 		Connection conn = null;

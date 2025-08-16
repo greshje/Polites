@@ -3,12 +3,16 @@ package org.curlew.tools.ohdsi.databricks.build;
 import java.io.InputStream;
 import java.sql.Connection;
 
+import org.curlew.tools.ohdsi.databricks.util.PolitesDatabricksUtil;
 import org.nachc.tools.fhirtoomop.util.databricks.connection.DatabricksConnectionFactory;
 import org.nachc.tools.fhirtoomop.util.databricks.database.DatabricksDatabase;
 import org.nachc.tools.fhirtoomop.util.databricks.properties.DatabricksProperties;
+import org.nachc.tools.fhirtoomop.util.params.AppParams;
+import org.nachc.tools.polites.util.connection.PolitesDatabricksConnectionFactory;
 import org.yaorma.database.Database;
 
 import com.nach.core.util.file.FileUtil;
+import com.nach.core.util.params.ApplicationParams;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -22,8 +26,6 @@ import lombok.extern.slf4j.Slf4j;
  *
  */
 
-// TODO: PICK UP HERE (UPDATE THIS CODE TO WORK IN THE NEW ENVIRONMENT)
-
 @Slf4j
 public class DBR02_CreateCdmDatabaseObjectsDatabricks {
 
@@ -32,16 +34,18 @@ public class DBR02_CreateCdmDatabaseObjectsDatabricks {
 	public static void main(String[] args) {
 		Connection conn = null;
 		try {
-			conn = DatabricksConnectionFactory.getConnection();
-			String schemaName = DatabricksProperties.getSchemaName();
-			exec(schemaName, conn);
+			conn = PolitesDatabricksConnectionFactory.getConnection();
+			exec(conn);
 		} finally {
 			Database.close(conn);
 		}
 		log.info("Done.");
 	}
 
-	public static void exec(String schemaName, Connection conn) {
+	public static void exec(Connection conn) {
+		// get the schema name
+		String schemaName = AppParams.get("CdmSchemaName");
+		log.info("Creating schema: " + schemaName);
 		// check the connection
 		conn = DatabricksDatabase.resetConnectionIfItIsBad(conn);
 		// echo status
@@ -65,7 +69,9 @@ public class DBR02_CreateCdmDatabaseObjectsDatabricks {
 		// echo status
 		log.info("-------------------------------");
 		log.info("DONE: Executing CDM 5.3 script to create tables: " + schemaName);
+		log.info("The tables shown below now exist in " + schemaName);
 		log.info("-------------------------------");
+		PolitesDatabricksUtil.getTablesForSchema(schemaName, conn);
 	}
 
 	private static String replace(String sqlString, String src, String dst) {

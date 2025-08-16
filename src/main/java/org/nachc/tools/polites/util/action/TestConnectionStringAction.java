@@ -43,7 +43,7 @@ public class TestConnectionStringAction {
 		Data data = Database.query(sqlString, conn);
 		log.info("Got " + data.size() + " rows...");
 		for(int i = 0;i < data.size();i++) {
-			
+			log.info("\t" + data.get(i).get("schemaName"));
 		}
 	}
 }

@@ -5,10 +5,8 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.util.List;
 
-import org.nachc.tools.fhirtoomop.util.databricks.connection.DatabricksConnectionFactory;
+import org.curlew.tools.ohdsi.databricks.build.impl.DeleteCsvFromDatabricks;
 import org.nachc.tools.fhirtoomop.util.databricks.database.DatabricksDatabase;
-import org.nachc.tools.fhirtoomop.util.databricks.delete.DeleteCsvFromDatabricks;
-import org.nachc.tools.fhirtoomop.util.databricks.properties.DatabricksProperties;
 import org.nachc.tools.fhirtoomop.util.databricks.upload.UploadCsvToDatabricks;
 import org.nachc.tools.fhirtoomop.util.databricks.upload.WriteFileStoreCsvToTable;
 import org.nachc.tools.fhirtoomop.util.params.AppParams;
@@ -57,9 +55,9 @@ public class DBR03_UploadTestDatasetCsvFilesDatabricks {
 		log.info("START: Creating test database(Synthea synthetic health database, CDM 5.3): " + schemaName);
 		log.info("-------------------------------");
 		// get the location to write the files to
-		String restUrl = DatabricksProperties.getRestUrl();
-		String uploadRoot = DatabricksProperties.getDatabricksUploadRoot();
-		String databaseName = DatabricksProperties.getSchemaName();
+		String restUrl = AppParams.get("DatabricksRestUrl");
+		String uploadRoot = AppParams.get("DatabricksUploadRoot");
+		String databaseName = AppParams.get("CdmSchemaName");
 		databricksFilesRoot = uploadRoot + "/" + databricksFilesRoot + "/csv";
 		// delete existing files
 		log.info("Deleting existing files...");
